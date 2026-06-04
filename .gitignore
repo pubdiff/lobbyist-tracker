@@ -1,0 +1,21 @@
+node_modules/
+.next/
+out/
+dist/
+.env
+.env.local
+.DS_Store
+*.log
+.vercel
+*.tsbuildinfo
+
+# Raw source responses (CSV/HTML downloads). Recoverable by re-running fetch.
+# We keep the normalised snapshots committed; raw is for debugging only.
+data/raw/*
+
+# Internal planning - kept local, not pushed
+ROADMAP.md
+NOTES.md
+.notes/
+notes/
+*-PLAN.md

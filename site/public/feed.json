@@ -1,0 +1,8 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Lobbyist Tracker - pubdiff",
+  "description": "Weekly diff of Australian lobbyist registers (federal + state). Tracks new firms, deregistrations, and client changes. A pubdiff tracker.",
+  "home_page_url": "https://pubdiff.github.io/lobbyist-tracker/",
+  "feed_url": "https://pubdiff.github.io/lobbyist-tracker/feed.json",
+  "items": []
+}

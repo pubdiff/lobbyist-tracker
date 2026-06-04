@@ -1,0 +1,71 @@
+name: scrape
+
+on:
+  schedule:
+    # Wednesday 20:00 UTC = Thursday 06:00 AEST
+    - cron: "0 20 * * 3"
+  workflow_dispatch:
+    inputs:
+      skip-post:
+        description: "Skip Bluesky posting (dry run)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: scrape (fetch + parse + index + diff + feed)
+        run: pnpm run scrape
+
+      # Commit data BEFORE posting so a Bluesky failure doesn't leave us
+      # re-detecting the same changes next week.
+      - name: commit data (pre-post)
+        run: |
+          git config user.name "pubdiff-bot"
+          git config user.email "bot@pubdiff.com"
+          git add data/ site/public/feed.xml site/public/feed.json site/public/data/ || true
+          if ! git diff --staged --quiet; then
+            git commit -m "scrape: $(date -u +%Y-%m-%d)"
+          fi
+
+      - name: post to bluesky
+        if: ${{ !inputs.skip-post }}
+        continue-on-error: true
+        env:
+          BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
+          BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
+        run: pnpm run post
+
+      - name: commit _posted.json (post-post)
+        if: ${{ always() }}
+        run: |
+          git config user.name "pubdiff-bot"
+          git config user.email "bot@pubdiff.com"
+          git add data/_posted.json || true
+          if ! git diff --staged --quiet; then
+            git commit -m "scrape: $(date -u +%Y-%m-%d) bluesky log"
+          fi
+
+      - name: push
+        if: ${{ always() }}
+        run: git push || echo "nothing to push"

@@ -1,0 +1,36 @@
+{
+  "name": "lobbyist-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Weekly diff of Australian lobbyist registers (federal + states). A pubdiff tracker.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "fetch": "tsx src/fetch.ts",
+    "parse": "tsx src/parse.ts",
+    "index-update": "tsx src/index-update.ts",
+    "diff": "tsx src/diff.ts",
+    "feed": "tsx src/feed.ts",
+    "build-site-data": "tsx src/build-site-data.ts",
+    "post": "tsx src/post-bluesky.ts",
+    "scrape:collect": "pnpm run fetch && pnpm run parse && pnpm run index-update && pnpm run diff",
+    "scrape:render": "pnpm run feed && pnpm run build-site-data",
+    "scrape": "pnpm run scrape:collect && pnpm run scrape:render",
+    "scrape:full": "pnpm run scrape && pnpm run post",
+    "site:dev": "cd site && pnpm dev",
+    "site:build": "cd site && pnpm build",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@atproto/api": "^0.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0"
+  },
+  "packageManager": "pnpm@9.0.0"
+}

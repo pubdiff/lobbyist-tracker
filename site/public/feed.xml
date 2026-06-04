@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Lobbyist Tracker - pubdiff</title>
+    <link>https://pubdiff.github.io/lobbyist-tracker/</link>
+    <description>Weekly diff of Australian lobbyist registers (federal + state). Tracks new firms, deregistrations, and client changes. A pubdiff tracker.</description>
+    <language>en-AU</language>
+
+  </channel>
+</rss>

@@ -1,0 +1,12 @@
+The dataset produced by this tracker (everything in `data/`, including the
+weekly snapshots, the cumulative index, and the diffs) is made available under
+the Creative Commons Attribution 4.0 International License (CC-BY-4.0).
+
+You may share and adapt this dataset for any purpose, including commercially,
+provided you give appropriate credit. Suggested attribution:
+
+  Source: pubdiff/lobbyist-tracker (https://github.com/pubdiff/lobbyist-tracker)
+  Derived from federal and state lobbyist registers
+  (© the relevant Crown agencies, used under their open-data terms).
+
+Full licence text: https://creativecommons.org/licenses/by/4.0/legalcode
