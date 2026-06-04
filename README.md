@@ -13,7 +13,7 @@ Each jurisdiction's register publishes only the current state of who is register
 | VIC | Victorian Public Sector Commission Lobbyist Register | live - sitemap + per-firm page (clients incl. former, employees incl. former-role flag, owners) |
 | QLD | Queensland Integrity Commissioner Lobbyists Register | planned |
 | WA | WA Public Sector Commission Lobbyists Register | planned |
-| SA | SA Department of the Premier and Cabinet Lobbyist Register | planned |
+| SA | SA Attorney-General's Department Register of Lobbyists | live - JSON API (clients incl. former, employees incl. s13(1)(b) restriction, owners) |
 
 TAS, ACT, NT do not maintain registers (or maintain only minimal ones).
 

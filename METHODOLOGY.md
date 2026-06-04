@@ -13,7 +13,7 @@ Each Australian jurisdiction with a third-party lobbyist register is treated as 
 | VIC | Victorian Public Sector Commission | Server-rendered register (sitemap + per-firm page) | Continuous |
 | QLD | Queensland Integrity Commissioner | HTML register | Continuous |
 | WA | WA Public Sector Commission | HTML register | Continuous |
-| SA | SA Department of the Premier and Cabinet | HTML register | Continuous |
+| SA | SA Attorney-General's Department | Public JSON API (React SPA backend) | Continuous |
 
 Each adapter records the **exact source URL** it fetched in the snapshot file. If a register moves, the diff for the affected week will reflect the changeover and a note is added to this document.
 
@@ -28,6 +28,10 @@ The federal register at `lobbyists.ag.gov.au` is an Angular SPA backed by a publ
 ### Victorian source detail
 
 The Victorian register at `lobbyists.vic.gov.au` is a server-rendered Drupal site (the Victorian Public Sector Commission's). Its on-site search loads over AJAX with no clean JSON endpoint, so the adapter enumerates firms from the site's `sitemap.xml`, which lists every firm page (`/search-the-register/<slug>`, the slug used as the `registrationId`). It then fetches one server-rendered page per firm for that firm's official entity name, ABN, registration status and date, owners, employees and clients (both current and former, the latter carrying a removal date). Like the federal register and unlike NSW, VIC discloses former government roles: each employee may carry a former-role statement (e.g. a former ministerial adviser), captured as `isFormerPublicOfficial` with the statement in the notes. VIC exposes no watchlist or foreign-principal flag. Full notes live in `.notes/vic-source.md`.
+
+### South Australian source detail
+
+The South Australian register (administered under the Lobbyists Act 2015, moved to the Attorney-General's Department in July 2024) is a React single-page app at `lobbyists.sa.gov.au` backed by an unauthenticated public REST API. The adapter calls `GET /lobbyist` for the list of ~180 firms (each with a stable numeric `LobbyistId` used as the `registrationId`), then per firm `GET /lobbyist/{id}` (ABN, trading name, owners, address), `GET /employee?lobbyistId={id}` (people, current and former) and `GET /client?lobbyistId={id}` (clients, current and former). The register lists both approved and surrendered firms; status is carried through. Owners come from a free-text `OwnerDetails` field split on commas. SA flags former senior government representatives via the employee "Section 13(1)(b) of the Lobbyists Act" restriction, mapped to `isFormerPublicOfficial`. It exposes no watchlist or foreign-principal flag. Full notes live in `.notes/sa-source.md`.
 
 ## Schema
 
@@ -69,7 +73,7 @@ The first snapshot per source has no prior to diff against. Its "diff" surfaces 
 ## What we don't do (yet)
 
 - **Entity resolution across registers.** A lobbyist firm registered in NSW and federally appears as two distinct records here. Joining them is a downstream entity-resolution problem.
-- **Ex-politician detection.** Where a register exposes its own former-representative flag (the federal register does, via `isFormerRepresentative`; the Victorian register does, via a per-employee former-role statement), we pass it through faithfully. What we do NOT do is independently match a named lobbyist against a list of former MPs / ministers / staffers when the register itself doesn't flag it. That inference is out of scope for v1.
+- **Ex-politician detection.** Where a register exposes its own former-representative flag (the federal register does, via `isFormerRepresentative`; the Victorian register does, via a per-employee former-role statement; the South Australian register does, via the s13(1)(b) restriction), we pass it through faithfully. What we do NOT do is independently match a named lobbyist against a list of former MPs / ministers / staffers when the register itself doesn't flag it. That inference is out of scope for v1.
 - **Lobbying contact / meeting logs.** Registers expose who is registered, not what they did. Contact logs are largely not published.
 
 ## Identity / OPSEC posture

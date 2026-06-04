@@ -7,14 +7,15 @@ import type { Source } from "./types.ts";
 import { nswSource } from "./nsw.ts";
 import { federalSource } from "./federal.ts";
 import { vicSource } from "./vic.ts";
+import { saSource } from "./sa.ts";
 
 export const SOURCES: Source[] = [
   federalSource,
   nswSource,
   vicSource,
-  // qldSource,     // TODO
-  // waSource,      // TODO
-  // saSource,      // TODO
+  saSource,
+  // qldSource,     // TODO (Power Apps portal, EPBC-class)
+  // waSource,      // TODO (Power Apps portal, EPBC-class)
 ];
 
 export function readySources(): Source[] {
