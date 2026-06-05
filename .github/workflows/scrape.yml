@@ -81,3 +81,11 @@ jobs:
       - name: push
         if: ${{ always() }}
         run: git push || echo "nothing to push"
+
+      # Runs last and AFTER the push so healthy sources still publish; if a
+      # ready source produced no snapshot this run (e.g. a fetch 403) or its
+      # count collapsed, this fails the run so the drop is noticed and fixed
+      # instead of silently shipping an incomplete week. See src/check-health.ts.
+      - name: data health check
+        if: ${{ always() }}
+        run: pnpm run check-health
