@@ -23,7 +23,9 @@ jobs:
     runs-on: ubuntu-latest
     # QLD + WA are Power Apps portals scraped through a headless browser, so the
     # run is longer than a pure-fetch one (WA renders one detail page per firm).
-    timeout-minutes: 30
+    # Sources now fetch concurrently (see src/fetch.ts), so wall-clock is the
+    # slowest single source (~WA) rather than the sum; 50min gives headroom.
+    timeout-minutes: 50
     steps:
       - uses: actions/checkout@v4
 

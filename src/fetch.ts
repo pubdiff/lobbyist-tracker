@@ -22,21 +22,27 @@ async function main(): Promise<void> {
 
   const failures: { jurisdiction: string; error: string }[] = [];
 
-  for (const src of sources) {
-    console.log(`fetch[${src.jurisdiction}]: ${src.label}`);
-    try {
-      const raw = await src.fetch();
-      const ext = raw.contentType === "csv" ? "csv" : raw.contentType === "html" ? "html" : "json";
-      const out = `${RAW_DIR}/${src.jurisdiction}/${runId}.${ext}`;
-      await mkdir(dirname(out), { recursive: true });
-      await writeFile(out, raw.bytes);
-      console.log(`  wrote ${out} (${raw.bytes.byteLength} bytes from ${raw.sourceUrl})`);
-    } catch (err) {
-      const message = err instanceof Error ? err.message : String(err);
-      console.error(`  FAILED: ${message}`);
-      failures.push({ jurisdiction: src.jurisdiction, error: message });
-    }
-  }
+  // Sources are independent (each writes its own raw file and owns its own
+  // browser/session), so fetch them concurrently. Sequentially the run is the
+  // SUM of every source - WA's ~128 per-firm browser renders alone push that
+  // past CI's timeout. Concurrently the wall-clock is the slowest single source.
+  await Promise.all(
+    sources.map(async (src) => {
+      console.log(`fetch[${src.jurisdiction}]: ${src.label}`);
+      try {
+        const raw = await src.fetch();
+        const ext = raw.contentType === "csv" ? "csv" : raw.contentType === "html" ? "html" : "json";
+        const out = `${RAW_DIR}/${src.jurisdiction}/${runId}.${ext}`;
+        await mkdir(dirname(out), { recursive: true });
+        await writeFile(out, raw.bytes);
+        console.log(`  wrote ${out} (${raw.bytes.byteLength} bytes from ${raw.sourceUrl})`);
+      } catch (err) {
+        const message = err instanceof Error ? err.message : String(err);
+        console.error(`  FAILED [${src.jurisdiction}]: ${message}`);
+        failures.push({ jurisdiction: src.jurisdiction, error: message });
+      }
+    }),
+  );
 
   // Don't blow up the whole run if one jurisdiction is down. Other sources
   // still need to make it through parse/diff/feed. The diff for the failed
