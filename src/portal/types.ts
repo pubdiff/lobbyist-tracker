@@ -29,6 +29,12 @@ export interface EntityGridResponse {
   MoreRecords: boolean;
   Records: PortalRecord[];
   ItemCount: number;
+  // Present on detail subgrid responses (entity-subgrid-data.json). Dynamics
+  // portal paging is cookie-driven, not offset-driven: to fetch the next page
+  // you echo this back as `pagingCookie`, not just increment `page`.
+  NextPagePagingCookie?: string;
+  PageCount?: number;
+  PageNumber?: number;
 }
 
 export interface PortalRecord {

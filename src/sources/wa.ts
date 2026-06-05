@@ -25,6 +25,8 @@ import {
   installNameShim,
   launchBrowser,
   newPortalContext,
+  PORTAL_USER_AGENT,
+  type EntityGridResponse,
   type PortalRecord,
   type PwContext,
 } from "../portal/index.ts";
@@ -185,56 +187,135 @@ async function enumerateFirms(ctx: PwContext): Promise<Array<{ id: string; name:
   }
 }
 
-// Render a firm's detail page and read the Company fields + the three subgrids.
+interface SubgridConfig {
+  url: string;
+  body: Record<string, unknown>; // the page's own POST body (carries secureConfig + entityId)
+  token: string;
+}
+
+// Render a firm's detail page and read its three subgrids + ABN.
+//
+// The subgrids load via /_services/entity-subgrid-data.json. Rather than scrape
+// the rendered data-grid markup (it interleaves the column header and a
+// responsive duplicate row into each cell) or rely on intercepting the page's
+// own responses (timing-fragile, and only ever the first page), we capture each
+// subgrid's POST *config* during render, then re-issue it ourselves with plain
+// fetch and follow Dynamics' NextPagePagingCookie to completion. This is
+// deterministic and never silently truncates at the 50-row page size.
 async function scrapeFirm(ctx: PwContext, id: string, listName: string): Promise<WaFirmRaw> {
   const page = await ctx.newPage();
+  let cookieHeader = "";
+  let abnValue: string | null = null;
+  const configs = new Map<string, SubgridConfig>(); // keyed by secureConfig, deduped
   try {
     await installNameShim(page);
-
-    // The three detail subgrids load via /_services/entity-subgrid-data.json,
-    // returning clean CRM records (psc_lobbyist = people, psc_owner = owners,
-    // psc_client = clients). Reading these structured responses is far more
-    // robust than scraping the rendered data-grid markup (which interleaves the
-    // column header and a responsive duplicate row into each cell).
-    const byEntity = new Map<string, PortalRecord[]>();
-    page.on("response", (res) => {
-      if (!res.url().includes("entity-subgrid-data.json")) return;
-      void res.text().then((txt) => {
-        try {
-          const j = JSON.parse(txt) as { Records?: PortalRecord[] };
-          for (const rec of j.Records ?? []) {
-            const list = byEntity.get(rec.EntityName) ?? [];
-            list.push(rec);
-            byEntity.set(rec.EntityName, list);
-          }
-        } catch {
-          /* ignore non-JSON / partial bodies */
-        }
-      });
+    page.on("request", (req) => {
+      if (req.method() !== "POST" || !req.url().includes("entity-subgrid-data.json")) return;
+      const raw = req.postData();
+      if (!raw) return;
+      let body: Record<string, unknown>;
+      try {
+        body = JSON.parse(raw) as Record<string, unknown>;
+      } catch {
+        return;
+      }
+      const sc = body.base64SecureConfiguration;
+      const token = req.headers()["__requestverificationtoken"];
+      if (typeof sc !== "string" || !token) return;
+      configs.set(sc, { url: req.url(), body, token });
     });
 
     await page.goto(`${HOST}/searchdetails/?id=${id}`, { waitUntil: "networkidle", timeout: NAV_TIMEOUT });
-    await page.waitForTimeout(RENDER_WAIT_MS);
+    // Wait until all three subgrids (Lobbyist / Owner / Client) have fired their
+    // POST so we have every config, rather than guessing a fixed delay. Falls
+    // through after RENDER_WAIT_MS so a firm that fires fewer still proceeds.
+    const deadline = Date.now() + RENDER_WAIT_MS;
+    while (configs.size < 3 && Date.now() < deadline) await page.waitForTimeout(250);
 
-    const abn = await page.evaluate(() => {
+    abnValue = await page.evaluate(() => {
       const clean = (s: string | null | undefined) => (s || "").replace(/\s+/g, " ").trim();
       const ctrl = document.querySelector("[data-name='psc_abn'] .control, .psc_abn .control, #psc_abn");
       const v = clean((ctrl as HTMLElement | null)?.innerText) || clean((ctrl as HTMLInputElement | null)?.value);
       return v || null;
     });
-
-    return {
-      id,
-      listName,
-      name: listName || null, // the list name is the firm's registered name
-      abn: abn ?? null,
-      people: recordNames(byEntity.get("psc_lobbyist")),
-      owners: recordNames(byEntity.get("psc_owner")),
-      clients: recordNames(byEntity.get("psc_client")),
-    };
+    cookieHeader = (await ctx.cookies()).map((c) => `${c.name}=${c.value}`).join("; ");
   } finally {
     await page.close();
   }
+
+  // Fully fetch each captured subgrid and bucket the records by child entity.
+  const byEntity = new Map<string, PortalRecord[]>();
+  for (const cfg of configs.values()) {
+    const records = await fetchSubgridAll(cfg, cookieHeader, id);
+    for (const rec of records) {
+      const list = byEntity.get(rec.EntityName) ?? [];
+      list.push(rec);
+      byEntity.set(rec.EntityName, list);
+    }
+  }
+
+  return {
+    id,
+    listName,
+    name: listName || null, // the list anchor text is the firm's registered name
+    abn: abnValue,
+    people: recordNames(byEntity.get("psc_lobbyist")),
+    owners: recordNames(byEntity.get("psc_owner")),
+    clients: recordNames(byEntity.get("psc_client")),
+  };
+}
+
+// Re-issue a captured subgrid POST with plain fetch and follow Dynamics'
+// cookie-based paging to completion. The page's own first request fetches at
+// most the 50-row page size; here we page until NextPagePagingCookie runs out so
+// firms with more relationships are never silently truncated.
+async function fetchSubgridAll(cfg: SubgridConfig, cookieHeader: string, id: string): Promise<PortalRecord[]> {
+  const origin = new URL(cfg.url).origin;
+  const out: PortalRecord[] = [];
+  const seen = new Set<string>();
+  let pagingCookie = "";
+  let page = 1;
+  const MAX_PAGES = 50; // 50 * 50 = 2500 rows, far beyond any real firm
+  while (page <= MAX_PAGES) {
+    const res = await fetch(cfg.url, {
+      method: "POST",
+      headers: {
+        "User-Agent": PORTAL_USER_AGENT,
+        Accept: "application/json, text/javascript, */*; q=0.01",
+        "Content-Type": "application/json; charset=utf-8",
+        "X-Requested-With": "XMLHttpRequest",
+        Origin: origin,
+        Referer: `${origin}/searchdetails/?id=${id}`,
+        __RequestVerificationToken: cfg.token,
+        Cookie: cookieHeader,
+      },
+      body: JSON.stringify({ ...cfg.body, page, pageSize: 50, pagingCookie }),
+    });
+    if (!res.ok) {
+      console.warn(`  WA subgrid ${id} page ${page}: HTTP ${res.status}`);
+      break;
+    }
+    const j = JSON.parse(await res.text()) as EntityGridResponse;
+    let fresh = 0;
+    for (const rec of j.Records ?? []) {
+      if (seen.has(rec.Id)) continue;
+      seen.add(rec.Id);
+      out.push(rec);
+      fresh++;
+    }
+    const cookie = j.NextPagePagingCookie;
+    if (!j.MoreRecords || !cookie || fresh === 0) {
+      // If the server still claims more but we can't advance, say so loudly
+      // rather than dropping records silently.
+      if (j.MoreRecords && (!cookie || fresh === 0)) {
+        console.warn(`  WA subgrid ${id}: MoreRecords but cannot page past ${out.length} records`);
+      }
+      break;
+    }
+    pagingCookie = cookie;
+    page++;
+  }
+  return out;
 }
 
 // ---------------------------------------------------------------------------
