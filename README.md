@@ -11,11 +11,11 @@ Each jurisdiction's register publishes only the current state of who is register
 | NSW | NSW Electoral Commission Register of Third-Party Lobbyists | live - list + per-firm detail (clients, foreign principals, employees, owners, watchlist) |
 | Federal | Attorney-General's Department Register of Lobbyists | live - JSON API (clients, employees incl. former-representative flag, owners) |
 | VIC | Victorian Public Sector Commission Lobbyist Register | live - sitemap + per-firm page (clients incl. former, employees incl. former-role flag, owners) |
-| QLD | Queensland Integrity Commissioner Lobbyists Register | planned |
-| WA | WA Public Sector Commission Lobbyists Register | planned |
 | SA | SA Attorney-General's Department Register of Lobbyists | live - JSON API (clients incl. former, employees incl. s13(1)(b) restriction, owners) |
+| QLD | Queensland Integrity Commissioner Lobbyists Register | live - Power Apps portal (firms + people incl. former-senior-rep flag; QLD publishes no firm↔client or owner link) |
+| WA | WA Public Sector Commission Lobbyists Register | live - Power Apps portal (firms + clients + employees + owners; no former-rep flag exposed) |
 
-TAS, ACT, NT do not maintain registers (or maintain only minimal ones).
+**Six jurisdictions live: federal, NSW, VIC, SA, QLD, WA.** TAS, ACT and NT each maintain a third-party lobbyist register too (NT a CSV export, ACT a detailed server-rendered register run by the Legislative Assembly, TAS the Integrity Commission's register behind a Cloudflare challenge); adapters for them are scoped but not yet built. See `.notes/{tas,act,nt}-source.md`.
 
 ## What changes get surfaced
 

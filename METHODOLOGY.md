@@ -11,8 +11,8 @@ Each Australian jurisdiction with a third-party lobbyist register is treated as 
 | NSW | NSW Electoral Commission | Server-rendered Salesforce register (list page + per-firm Ajax detail) | Continuous |
 | Federal | Attorney-General's Department | Public JSON API (Angular SPA backend) | Continuous |
 | VIC | Victorian Public Sector Commission | Server-rendered register (sitemap + per-firm page) | Continuous |
-| QLD | Queensland Integrity Commissioner | HTML register | Continuous |
-| WA | WA Public Sector Commission | HTML register | Continuous |
+| QLD | Queensland Integrity Commissioner | Microsoft Power Apps / Dynamics portal (headless-browser session + grid crawl) | Continuous |
+| WA | WA Public Sector Commission | Microsoft Power Apps / Dynamics portal (headless-browser per-firm render) | Continuous |
 | SA | SA Attorney-General's Department | Public JSON API (React SPA backend) | Continuous |
 
 Each adapter records the **exact source URL** it fetched in the snapshot file. If a register moves, the diff for the affected week will reflect the changeover and a note is added to this document.
@@ -32,6 +32,24 @@ The Victorian register at `lobbyists.vic.gov.au` is a server-rendered Drupal sit
 ### South Australian source detail
 
 The South Australian register (administered under the Lobbyists Act 2015, moved to the Attorney-General's Department in July 2024) is a React single-page app at `lobbyists.sa.gov.au` backed by an unauthenticated public REST API. The adapter calls `GET /lobbyist` for the list of ~180 firms (each with a stable numeric `LobbyistId` used as the `registrationId`), then per firm `GET /lobbyist/{id}` (ABN, trading name, owners, address), `GET /employee?lobbyistId={id}` (people, current and former) and `GET /client?lobbyistId={id}` (clients, current and former). The register lists both approved and surrendered firms; status is carried through. Owners come from a free-text `OwnerDetails` field split on commas. SA flags former senior government representatives via the employee "Section 13(1)(b) of the Lobbyists Act" restriction, mapped to `isFormerPublicOfficial`. It exposes no watchlist or foreign-principal flag. Full notes live in `.notes/sa-source.md`.
+
+### Queensland source detail
+
+The Queensland register (Office of the Queensland Integrity Commissioner) at `lobbyists.integrity.qld.gov.au` is a Microsoft Power Apps / Dynamics portal - the same platform class as the EPBC portal, not a server-rendered page. A headless browser bootstraps a logged-out session (anti-forgery token + encrypted view config + cookies) off the register grid, after which the adapter pages the grid's `entity-grid-data.json` service with plain fetches. Each row is an **individual** lobbyist (name, position, trading name, and a `dpc_formerseniorgovernmentrepresentative` flag → `isFormerPublicOfficial`); the adapter groups rows by trading name into firms (~126 firms / ~247 people). Importantly, **QLD publishes no registered firm↔client relationship and no owners** - its client list is a flat register with no link back to a firm - so QLD records carry empty `clients` and `owners`. (A separate lobbying-activity register links contacts to clients, but those are contact logs, not registrations, and are deliberately not synthesised into registered clients.) Full notes live in `.notes/qld-source.md`.
+
+### Western Australian source detail
+
+The WA register at `lobbyists.wa.gov.au` (Public Sector Commission) is also a Power Apps / Dynamics portal. Unlike QLD's replayable grid, WA renders its firm list client-side and exposes a per-firm detail page (`/searchdetails/?id=<accountId>`) whose three subgrids (lobbyist details = people, owners, clients) load via a service whose secure config bakes in the parent firm id - so each firm must be rendered individually in a headless browser to capture its subgrid requests, which the adapter then re-issues with plain fetch and pages to completion. WA exposes firm name + ABN and all three relationships (~128 firms + clients + employees + owners) but **no former-government-representative flag at firm-detail level**, so `isFormerPublicOfficial` is null for WA. Full notes live in `.notes/wa-source.md`.
+
+### Not yet built: TAS, ACT, NT
+
+All three of the remaining jurisdictions do maintain a third-party lobbyist register (correcting an earlier assumption that they did not); adapters are scoped but not yet built:
+
+- **NT** - Department of the Chief Minister and Cabinet, a server-rendered register with a clean CSV export endpoint (the simplest source of all). No former-official or foreign-principal flag.
+- **ACT** - run by the ACT Legislative Assembly (not the executive); a detailed server-rendered register exposing clients, directors, 10%+ owners, and a previous-public-employment statement per person (the richest field set after NSW).
+- **TAS** - the Tasmanian Integrity Commission's register; simple server-rendered HTML, but behind a Cloudflare challenge, so it needs the same headless-browser path as the QLD/WA portals.
+
+Reverse-engineering notes for each live in `.notes/{nt,act,tas}-source.md`.
 
 ## Schema
 

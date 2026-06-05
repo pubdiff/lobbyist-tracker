@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description: "How the Lobbyist Tracker collects, diffs, and publishes Australian lobbyist register data.",
 };
 
-const LIVE: Jurisdiction[] = ["federal", "nsw", "vic", "sa"];
+const LIVE: Jurisdiction[] = ["federal", "nsw", "vic", "sa", "qld", "wa"];
 
 export default async function AboutPage() {
   const stats = await trackerStats();
