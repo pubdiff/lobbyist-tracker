@@ -20,7 +20,11 @@ concurrency:
 
 jobs:
   scrape:
-    runs-on: ubuntu-latest
+    # Self-hosted runner on the BOSGAME homelab (residential IP). VIC's WAF
+    # 403s GitHub's datacenter IP range for both plain fetch AND a headless
+    # browser, so the scrape must egress from a non-datacenter IP. Other
+    # sources are unaffected by where they run. deploy.yml stays GitHub-hosted.
+    runs-on: [self-hosted, homelab]
     # QLD + WA are Power Apps portals scraped through a headless browser, so the
     # run is longer than a pure-fetch one (WA renders one detail page per firm).
     # Sources now fetch concurrently (see src/fetch.ts), so wall-clock is the
