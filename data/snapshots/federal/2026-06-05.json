@@ -1,10 +1,10 @@
 {
   "runId": "2026-06-05",
-  "fetchedAt": "2026-06-05T05:49:11.345Z",
+  "fetchedAt": "2026-06-05T06:36:42.573Z",
   "jurisdiction": "federal",
   "sourceUrl": "data/raw/federal/2026-06-05.json",
   "parserVersion": "0.1.0",
-  "count": 384,
+  "count": 385,
   "lobbyists": [
     {
       "jurisdiction": "federal",
@@ -38581,6 +38581,130 @@
         },
         {
           "name": "Paul Smith",
+          "active": true
+        }
+      ]
+    },
+    {
+      "jurisdiction": "federal",
+      "registrationId": "f5600f3e-973d-ef11-a9af-0050569fd942",
+      "legalName": "Operational Legal Australia Pty Ltd",
+      "tradingName": "Operational Legal Australia Pty Ltd",
+      "abn": "79632066669",
+      "status": "Registered",
+      "onWatchlist": null,
+      "registeredAt": "2019-04-11",
+      "address": null,
+      "sourceUrl": "https://lobbyists.ag.gov.au/register",
+      "clients": [
+        {
+          "name": "BROKODE INVESTMENTS PTY LIMITED",
+          "abn": "53658133941",
+          "isForeignPrincipal": null,
+          "countries": [],
+          "active": true,
+          "startDate": "2025-05-23",
+          "endDate": null,
+          "notes": null
+        },
+        {
+          "name": "Corio Projects Pty Ltd",
+          "abn": "64651267604",
+          "isForeignPrincipal": null,
+          "countries": [],
+          "active": true,
+          "startDate": "2025-05-23",
+          "endDate": null,
+          "notes": null
+        },
+        {
+          "name": "EUREKA GROUP HOLDINGS LIMITED",
+          "abn": "15097241159",
+          "isForeignPrincipal": null,
+          "countries": [],
+          "active": true,
+          "startDate": "2025-05-23",
+          "endDate": null,
+          "notes": null
+        },
+        {
+          "name": "FDC BUILDING SERVICES PTY. LIMITED.",
+          "abn": "94055267788",
+          "isForeignPrincipal": null,
+          "countries": [],
+          "active": true,
+          "startDate": "2025-05-23",
+          "endDate": null,
+          "notes": null
+        },
+        {
+          "name": "KRAIT CORPORATION PTY LIMITED",
+          "abn": "76631571250",
+          "isForeignPrincipal": null,
+          "countries": [],
+          "active": true,
+          "startDate": "2020-11-10",
+          "endDate": null,
+          "notes": null
+        },
+        {
+          "name": "NISI DOMINUS FRUSTRA PTY LIMITED",
+          "abn": "64644069134",
+          "isForeignPrincipal": null,
+          "countries": [],
+          "active": true,
+          "startDate": "2020-11-10",
+          "endDate": null,
+          "notes": null
+        },
+        {
+          "name": "Veterans Community Business Chamber",
+          "abn": "65638891273",
+          "isForeignPrincipal": null,
+          "countries": [],
+          "active": true,
+          "startDate": "2020-11-10",
+          "endDate": null,
+          "notes": null
+        },
+        {
+          "name": "W & E Platt Pty Ltd",
+          "abn": "18127236266",
+          "isForeignPrincipal": null,
+          "countries": [],
+          "active": true,
+          "startDate": "2019-04-11",
+          "endDate": null,
+          "notes": null
+        }
+      ],
+      "people": [
+        {
+          "name": "Michael Bainbridge",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Paul Raymond James",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": [
+        {
+          "name": "Krait Corporation Krait Corporation Pty Limited",
+          "active": true
+        },
+        {
+          "name": "Nisi Dominus Frustra Pty Limited",
+          "active": true
+        },
+        {
+          "name": "Steven Fuller",
           "active": true
         }
       ]
