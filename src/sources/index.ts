@@ -8,14 +8,16 @@ import { nswSource } from "./nsw.ts";
 import { federalSource } from "./federal.ts";
 import { vicSource } from "./vic.ts";
 import { saSource } from "./sa.ts";
+import { qldSource } from "./qld.ts";
+import { waSource } from "./wa.ts";
 
 export const SOURCES: Source[] = [
   federalSource,
   nswSource,
   vicSource,
   saSource,
-  // qldSource,     // TODO (Power Apps portal, EPBC-class)
-  // waSource,      // TODO (Power Apps portal, EPBC-class)
+  qldSource,
+  waSource,
 ];
 
 export function readySources(): Source[] {

@@ -21,7 +21,9 @@ concurrency:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    # QLD + WA are Power Apps portals scraped through a headless browser, so the
+    # run is longer than a pure-fetch one (WA renders one detail page per firm).
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
 
@@ -33,6 +35,10 @@ jobs:
           cache: pnpm
 
       - run: pnpm install --frozen-lockfile
+
+      # The QLD and WA adapters bootstrap a Power Apps session in real Chromium.
+      - name: install chromium (QLD + WA portals)
+        run: pnpm exec playwright install --with-deps chromium
 
       - name: scrape (fetch + parse + index + diff + feed)
         run: pnpm run scrape
