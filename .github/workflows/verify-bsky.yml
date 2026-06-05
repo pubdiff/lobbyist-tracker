@@ -1,0 +1,26 @@
+name: verify-bsky
+
+# Manual, non-destructive check that the Bluesky credentials authenticate.
+# Logs in and prints the DID; posts nothing. GitHub-hosted (Bluesky login
+# needs no residential IP, unlike the VIC scrape).
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: verify bluesky auth (no posting)
+        env:
+          BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
+          BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
+        run: pnpm run verify-bsky

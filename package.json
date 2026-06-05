@@ -16,6 +16,7 @@
     "feed": "tsx src/feed.ts",
     "build-site-data": "tsx src/build-site-data.ts",
     "post": "tsx src/post-bluesky.ts",
+    "verify-bsky": "tsx src/verify-bsky.ts",
     "check-health": "tsx src/check-health.ts",
     "test": "node --import tsx --test src/*.test.ts",
     "scrape:collect": "pnpm run fetch && pnpm run parse && pnpm run index-update && pnpm run diff",
