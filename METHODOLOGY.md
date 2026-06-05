@@ -103,6 +103,11 @@ Lobbyist registers are public and real-name-safe. This tracker re-publishes fact
 - Every snapshot file records `sourceUrl`, `fetchedAt`, and the parser version.
 - The full Git history of `data/snapshots/` IS the history of the registers, week by week.
 - Anyone can re-run the pipeline locally and re-derive every diff from raw snapshots.
+- A final **health check** (`src/check-health.ts`) runs each scrape: it fails the run if any ready source produced no snapshot or its record count collapsed versus the prior week, so a broken scraper can't silently ship an incomplete week. Unit-tested (`pnpm test`).
+
+### Running it (CI egress note)
+
+The weekly scrape runs on a **self-hosted runner** rather than a GitHub-hosted one. This is not for compute - it's egress: the **Victorian** register's WAF returns `403 Forbidden` to GitHub Actions' datacenter IP range (for both a plain fetch and a real headless browser), while serving normally from a residential IP. The other five sources work from anywhere. So the job runs from a residential-IP runner; nothing else about the pipeline depends on it. If you fork this and run the scrape on GitHub-hosted runners, expect VIC to 403 and drop out (the health check will flag it) - run it from a non-datacenter IP, or skip VIC.
 
 ## Contact
 

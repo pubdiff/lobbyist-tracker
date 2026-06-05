@@ -1,0 +1,33 @@
+name: test
+
+# Typecheck + unit tests for the pipeline logic (health guardrail, and any
+# future pure helpers). Runs on every push and PR so a regression is caught
+# before the weekly scrape relies on it.
+#
+# Runs on GitHub-hosted runners on purpose: this workflow triggers on
+# pull_request, and a PR-triggered job must NEVER run on the self-hosted
+# homelab runner (public repo). Only scrape.yml (schedule/dispatch) is
+# self-hosted.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch: {}
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: typecheck
+        run: pnpm run typecheck
+      - name: unit tests
+        run: pnpm test
