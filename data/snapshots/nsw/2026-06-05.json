@@ -1,6 +1,6 @@
 {
   "runId": "2026-06-05",
-  "fetchedAt": "2026-06-05T06:36:42.771Z",
+  "fetchedAt": "2026-06-05T11:28:29.645Z",
   "jurisdiction": "nsw",
   "sourceUrl": "data/raw/nsw/2026-06-05.json",
   "parserVersion": "0.2.0",
@@ -67075,6 +67075,16 @@
       "address": null,
       "sourceUrl": "https://elections.nsw.gov.au/electoral-funding/public-register-and-lists/register-of-third-party-lobbyists",
       "clients": [
+        {
+          "name": "ACENERGY PTY LTD",
+          "abn": "89628883447",
+          "isForeignPrincipal": false,
+          "countries": [],
+          "active": true,
+          "startDate": "2026-06-05",
+          "endDate": null,
+          "notes": null
+        },
         {
           "name": "Adults Surviving Child Abuse",
           "abn": "49072260005",

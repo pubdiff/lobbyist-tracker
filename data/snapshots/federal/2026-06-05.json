@@ -1,10 +1,10 @@
 {
   "runId": "2026-06-05",
-  "fetchedAt": "2026-06-05T06:36:42.573Z",
+  "fetchedAt": "2026-06-05T11:28:29.477Z",
   "jurisdiction": "federal",
   "sourceUrl": "data/raw/federal/2026-06-05.json",
   "parserVersion": "0.1.0",
-  "count": 385,
+  "count": 383,
   "lobbyists": [
     {
       "jurisdiction": "federal",
@@ -2773,45 +2773,6 @@
       "owners": [
         {
           "name": "Emerston Pty Ltd",
-          "active": true
-        }
-      ]
-    },
-    {
-      "jurisdiction": "federal",
-      "registrationId": "0ebf7fe1-bab3-ec11-8156-0050569d617d",
-      "legalName": "TLC Consulting",
-      "tradingName": null,
-      "abn": "17257536291",
-      "status": "Registered",
-      "onWatchlist": null,
-      "registeredAt": "2022-04-04",
-      "address": null,
-      "sourceUrl": "https://lobbyists.ag.gov.au/register",
-      "clients": [
-        {
-          "name": "UNSW SMaRT Centre",
-          "abn": null,
-          "isForeignPrincipal": null,
-          "countries": [],
-          "active": true,
-          "startDate": "2022-04-04",
-          "endDate": null,
-          "notes": null
-        }
-      ],
-      "people": [
-        {
-          "name": "Stuart Snell",
-          "position": "Independent Consultant",
-          "active": true,
-          "isFormerPublicOfficial": false,
-          "formerRoleNotes": null
-        }
-      ],
-      "owners": [
-        {
-          "name": "Stuart Snell",
           "active": true
         }
       ]
@@ -7097,125 +7058,6 @@
     },
     {
       "jurisdiction": "federal",
-      "registrationId": "311f4ab1-5a01-f111-a9cb-0050569fd942",
-      "legalName": "Nicholas Harry Chilton",
-      "tradingName": "Venture Affairs",
-      "abn": "33913200853",
-      "status": "Registered",
-      "onWatchlist": null,
-      "registeredAt": "2025-05-23",
-      "address": null,
-      "sourceUrl": "https://lobbyists.ag.gov.au/register",
-      "clients": [
-        {
-          "name": "3DMorphic Pty Ltd",
-          "abn": "38607508047",
-          "isForeignPrincipal": null,
-          "countries": [],
-          "active": true,
-          "startDate": "2025-08-18",
-          "endDate": null,
-          "notes": null
-        },
-        {
-          "name": "Atomic Tessellator Limited",
-          "abn": null,
-          "isForeignPrincipal": null,
-          "countries": [],
-          "active": true,
-          "startDate": "2026-02-02",
-          "endDate": null,
-          "notes": null
-        },
-        {
-          "name": "Cellular Agriculture Australia Ltd",
-          "abn": "67643719297",
-          "isForeignPrincipal": null,
-          "countries": [],
-          "active": true,
-          "startDate": "2025-05-23",
-          "endDate": null,
-          "notes": null
-        },
-        {
-          "name": "MGA Thermal Pty Ltd",
-          "abn": "73632657964",
-          "isForeignPrincipal": null,
-          "countries": [],
-          "active": true,
-          "startDate": "2025-09-23",
-          "endDate": null,
-          "notes": null
-        },
-        {
-          "name": "MP Space Pty Ltd",
-          "abn": "40675384906",
-          "isForeignPrincipal": null,
-          "countries": [],
-          "active": true,
-          "startDate": "2025-06-09",
-          "endDate": null,
-          "notes": null
-        },
-        {
-          "name": "New Australian Rain Consultants Pty Ltd",
-          "abn": null,
-          "isForeignPrincipal": null,
-          "countries": [],
-          "active": true,
-          "startDate": "2026-03-17",
-          "endDate": null,
-          "notes": null
-        },
-        {
-          "name": "Number 8 Bio Pty Ltd",
-          "abn": "80654122915",
-          "isForeignPrincipal": null,
-          "countries": [],
-          "active": true,
-          "startDate": "2025-06-09",
-          "endDate": null,
-          "notes": null
-        },
-        {
-          "name": "Sirona Technologies Pty Ltd",
-          "abn": "46695948862",
-          "isForeignPrincipal": null,
-          "countries": [],
-          "active": true,
-          "startDate": "2026-03-17",
-          "endDate": null,
-          "notes": null
-        },
-        {
-          "name": "Vow Group Pty. Ltd.",
-          "abn": "49632680472",
-          "isForeignPrincipal": null,
-          "countries": [],
-          "active": true,
-          "startDate": "2025-05-23",
-          "endDate": null,
-          "notes": null
-        }
-      ],
-      "people": [
-        {
-          "name": "Nicholas Chilton",
-          "position": "Founder & Director",
-          "active": true,
-          "isFormerPublicOfficial": true,
-          "formerRoleNotes": "Employed or engaged by a Minister or a Parliamentary Secretary under the Members of Parliament (Staff) Act 1984"
-        }
-      ],
-      "owners": [
-        {
-          "name": "Nicholas Chilton",
-          "active": true
-        }
-      ]
-    },
-    {
-      "jurisdiction": "federal",
       "registrationId": "318c1e67-a333-f111-a9d2-0050569fe6ca",
       "legalName": "GMGR Pty Ltd",
       "tradingName": null,
@@ -8792,16 +8634,6 @@
           "notes": null
         },
         {
-          "name": "Flying Whales",
-          "abn": null,
-          "isForeignPrincipal": null,
-          "countries": [],
-          "active": true,
-          "startDate": "2025-07-17",
-          "endDate": null,
-          "notes": null
-        },
-        {
           "name": "HAA No. 1 Pty Ltd",
           "abn": "92683822451",
           "isForeignPrincipal": null,
@@ -9098,16 +8930,6 @@
           "countries": [],
           "active": true,
           "startDate": "2023-02-27",
-          "endDate": null,
-          "notes": null
-        },
-        {
-          "name": "Tattarang Pty Ltd",
-          "abn": "69055961361",
-          "isForeignPrincipal": null,
-          "countries": [],
-          "active": true,
-          "startDate": "2025-07-17",
           "endDate": null,
           "notes": null
         },
@@ -14906,6 +14728,16 @@
           "notes": null
         },
         {
+          "name": "Hydrowood Pty Ltd",
+          "abn": "93658987510",
+          "isForeignPrincipal": null,
+          "countries": [],
+          "active": true,
+          "startDate": "2026-06-05",
+          "endDate": null,
+          "notes": null
+        },
+        {
           "name": "Korin Gamadji Institute",
           "abn": null,
           "isForeignPrincipal": null,
@@ -14942,16 +14774,6 @@
           "countries": [],
           "active": true,
           "startDate": "2025-07-21",
-          "endDate": null,
-          "notes": null
-        },
-        {
-          "name": "Santiago Burridge Pty Ltd",
-          "abn": "24663044835",
-          "isForeignPrincipal": null,
-          "countries": [],
-          "active": true,
-          "startDate": "2026-01-27",
           "endDate": null,
           "notes": null
         },
