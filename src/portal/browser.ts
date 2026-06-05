@@ -37,7 +37,6 @@ export interface PwPage {
   on(event: "response", handler: (res: PwResponse) => void): void;
   goto(url: string, opts: { waitUntil: string; timeout: number }): Promise<unknown>;
   waitForTimeout(ms: number): Promise<void>;
-  content(): Promise<string>;
   addInitScript(script: string | { content: string }): Promise<void>;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   evaluate<T>(fn: (...a: any[]) => T, arg?: unknown): Promise<T>;
