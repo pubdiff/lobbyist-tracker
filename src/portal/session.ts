@@ -31,10 +31,16 @@ export async function bootstrapEntityListWith(
 ): Promise<PortalSession> {
   const timeoutMs = opts.timeoutMs ?? 60_000;
   const page = await ctx.newPage();
+  // Hoisted so finally can clear it. If page.goto rejects before `captured` is
+  // awaited (e.g. a navigation timeout when several browsers contend for the CI
+  // runner), an uncleared timer would later reject an unawaited promise - an
+  // unhandledRejection that crashes the whole run instead of being caught by the
+  // per-source try/catch in fetch.ts. Clearing it in finally prevents that.
+  let timer: ReturnType<typeof setTimeout> | undefined;
   try {
     const captured = new Promise<{ token: string; secureConfig: string; cookieFromReq: string | null; gridUrl: string }>(
       (resolve, reject) => {
-        const timer = setTimeout(
+        timer = setTimeout(
           () => reject(new Error(`timed out waiting for entity-grid-data.json POST on ${opts.listPageUrl}`)),
           timeoutMs,
         );
@@ -73,6 +79,7 @@ export async function bootstrapEntityListWith(
       gridUrl,
     };
   } finally {
+    if (timer) clearTimeout(timer);
     await page.close();
   }
 }
