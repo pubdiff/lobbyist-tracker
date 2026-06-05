@@ -29,6 +29,7 @@
 
 import type { Client, Lobbyist, Owner, Person } from "../schema.ts";
 import type { FetchResult, Source } from "./types.ts";
+import { installNameShim, launchBrowser, newPortalContext, type PwBrowser, type PwContext } from "../portal/index.ts";
 
 const REGISTER_BASE = "https://www.lobbyists.vic.gov.au";
 const SITEMAP_URL = `${REGISTER_BASE}/sitemap.xml`;
@@ -52,31 +53,62 @@ export const vicSource: Source = {
   ready: true,
 
   async fetch(): Promise<FetchResult> {
-    const sitemap = await getText(SITEMAP_URL);
-    const slugs = extractFirmSlugs(sitemap);
-    console.log(`  VIC: ${slugs.length} firm pages in sitemap`);
-
-    const maxDetails = envInt("VIC_MAX_DETAILS", slugs.length);
     const delayMs = envInt("VIC_DELAY_MS", DEFAULT_DELAY_MS);
-    const targets = slugs.slice(0, maxDetails);
+    const forceBrowser = process.env.VIC_FORCE_BROWSER === "1";
 
-    const firms: Record<string, string> = {};
-    let failures = 0;
-    for (let i = 0; i < targets.length; i++) {
-      const slug = targets[i]!;
-      try {
-        firms[slug] = await getText(`${REGISTER_BASE}${FIRM_PATH}${slug}`);
-      } catch (err) {
-        failures++;
-        console.warn(`  VIC firm ${slug} failed: ${msg(err)}`);
+    // VIC sits behind Cloudflare. From an ordinary IP a plain GET (with our UA)
+    // returns 200, but datacenter IPs (e.g. GitHub Actions) get a 403 WAF
+    // challenge. So we fetch plainly by default and, on the first 403, switch to
+    // a headless browser for the rest of the run - a real browser can clear
+    // Cloudflare's managed challenge that plain fetch cannot. VIC_FORCE_BROWSER=1
+    // forces browser mode (to exercise that path locally, where there is no 403).
+    const state: { browser: PwBrowser | null; ctx: PwContext | null } = { browser: null, ctx: null };
+    const ensureBrowser = async (): Promise<PwContext> => {
+      if (!state.ctx) {
+        state.browser = await launchBrowser();
+        state.ctx = await newPortalContext(state.browser);
+        console.warn("  VIC: switched to headless browser (Cloudflare fallback)");
       }
-      if ((i + 1) % 50 === 0) console.log(`  VIC: fetched ${i + 1}/${targets.length} firms`);
-      if (i < targets.length - 1 && delayMs > 0) await sleep(delayMs);
-    }
-    if (failures > 0) console.warn(`  VIC: ${failures}/${targets.length} firm fetches failed`);
+      return state.ctx;
+    };
+    const fetchHtml = async (url: string): Promise<string> => {
+      if (state.ctx || forceBrowser) return getViaBrowser(await ensureBrowser(), url);
+      try {
+        return await getText(url);
+      } catch (err) {
+        if (isForbidden(err)) return getViaBrowser(await ensureBrowser(), url);
+        throw err;
+      }
+    };
 
-    const raw: VicRaw = { firms };
-    return { bytes: new TextEncoder().encode(JSON.stringify(raw)), contentType: "json", sourceUrl: LANDING_URL };
+    try {
+      const sitemap = await fetchHtml(SITEMAP_URL);
+      const slugs = extractFirmSlugs(sitemap);
+      console.log(`  VIC: ${slugs.length} firm pages in sitemap`);
+
+      const maxDetails = envInt("VIC_MAX_DETAILS", slugs.length);
+      const targets = slugs.slice(0, maxDetails);
+
+      const firms: Record<string, string> = {};
+      let failures = 0;
+      for (let i = 0; i < targets.length; i++) {
+        const slug = targets[i]!;
+        try {
+          firms[slug] = await fetchHtml(`${REGISTER_BASE}${FIRM_PATH}${slug}`);
+        } catch (err) {
+          failures++;
+          console.warn(`  VIC firm ${slug} failed: ${msg(err)}`);
+        }
+        if ((i + 1) % 50 === 0) console.log(`  VIC: fetched ${i + 1}/${targets.length} firms`);
+        if (i < targets.length - 1 && delayMs > 0) await sleep(delayMs);
+      }
+      if (failures > 0) console.warn(`  VIC: ${failures}/${targets.length} firm fetches failed`);
+
+      const raw: VicRaw = { firms };
+      return { bytes: new TextEncoder().encode(JSON.stringify(raw)), contentType: "json", sourceUrl: LANDING_URL };
+    } finally {
+      if (state.browser) await state.browser.close();
+    }
   },
 
   async parse(raw: FetchResult): Promise<Lobbyist[]> {
@@ -295,12 +327,50 @@ function normalise(value: string | null | undefined): string | null {
 // Network / misc
 // ---------------------------------------------------------------------------
 
+class HttpError extends Error {
+  status: number;
+  constructor(status: number, url: string) {
+    super(`${status} on ${url}`);
+    this.name = "HttpError";
+    this.status = status;
+  }
+}
+
+function isForbidden(err: unknown): boolean {
+  return err instanceof HttpError && err.status === 403;
+}
+
 async function getText(url: string): Promise<string> {
   const res = await fetch(url, {
     headers: { "User-Agent": USER_AGENT, Accept: "text/html,application/xhtml+xml" },
   });
-  if (!res.ok) throw new Error(`${res.status} ${res.statusText} on ${url}`);
+  if (!res.ok) throw new HttpError(res.status, url);
   return await res.text();
+}
+
+// Fetch a page through the headless browser, waiting out any Cloudflare
+// interstitial. Used only as the 403 fallback. Returns the rendered HTML (for
+// the sitemap, Chromium's XML viewer still embeds the raw <loc> URLs, which
+// extractFirmSlugs reads).
+async function getViaBrowser(ctx: PwContext, url: string): Promise<string> {
+  const page = await ctx.newPage();
+  try {
+    await installNameShim(page);
+    await page.goto(url, { waitUntil: "domcontentloaded", timeout: 60_000 });
+    // Wait out any Cloudflare interstitial on the navigation.
+    for (let i = 0; i < 8; i++) {
+      const html = await page.content();
+      if (!/just a moment|challenge-platform|cf-browser-verification|checking your browser/i.test(html)) break;
+      await page.waitForTimeout(1500);
+    }
+    // Read the raw bytes via an in-page fetch (same-origin, carries the
+    // cf_clearance cookie). This returns the true source for both the XML
+    // sitemap and the HTML firm pages - unlike page.content(), which wraps XML
+    // in Chromium's viewer markup and strips the <loc> URLs we parse.
+    return await page.evaluate(async (u: string) => await (await fetch(u)).text(), url);
+  } finally {
+    await page.close();
+  }
 }
 
 function envInt(name: string, fallback: number): number {
