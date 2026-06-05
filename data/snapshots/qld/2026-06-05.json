@@ -1,0 +1,3755 @@
+{
+  "runId": "2026-06-05",
+  "fetchedAt": "2026-06-05T05:49:11.588Z",
+  "jurisdiction": "qld",
+  "sourceUrl": "data/raw/qld/2026-06-05.json",
+  "parserVersion": "0.1.0",
+  "count": 126,
+  "lobbyists": [
+    {
+      "jurisdiction": "qld",
+      "registrationId": "a-gr-advisors-pty-ltd",
+      "legalName": "A.GR Advisors Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Ashley Wells",
+          "position": "Managing Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "aerial-geophysics-survey-pty-ltd",
+      "legalName": "Aerial Geophysics & Survey Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Wayne McCrae",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "affairs-of-state-aerovision-partners",
+      "legalName": "Affairs of State, Aerovision Partners",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Johan van Pelt",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "akin-agency-pty-ltd",
+      "legalName": "AKIN AGENCY PTY LTD",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Kathryn Lord",
+          "position": "Chief Executive Officer and Managing Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Nari Clayton",
+          "position": "Consultant",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Thomas Stephen",
+          "position": "Consultant",
+          "active": true,
+          "isFormerPublicOfficial": true,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "alex-paton-advisory",
+      "legalName": "Alex Paton Advisory",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Alexander Paton",
+          "position": "Principal",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "alistair-nicholas-consulting-pty-ltd",
+      "legalName": "Alistair Nicholas Consulting Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Alistair Nicholas",
+          "position": "Chief Executive Officer",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "anacta-strategies-pty-ltd",
+      "legalName": "Anacta Strategies Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Jessame Tibbitts",
+          "position": "Senior Associate",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Victoria Newton",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": true,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "anna-grosskreutz-consulting",
+      "legalName": "Anna Grosskreutz Consulting",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Anna Grosskreutz",
+          "position": "Owner",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "antinomies-advisory-ptd-ltd",
+      "legalName": "Antinomies Advisory Ptd Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Gavin Jackman",
+          "position": "Principal",
+          "active": true,
+          "isFormerPublicOfficial": true,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "atlas-alliance",
+      "legalName": "Atlas Alliance",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Douglas Pye",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "australian-strategic-advisory",
+      "legalName": "Australian Strategic Advisory",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Glen Elmes",
+          "position": "Lobbyist",
+          "active": true,
+          "isFormerPublicOfficial": true,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Kevin Parer",
+          "position": "Managing Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "banksia-strategic-partners-pty-ltd",
+      "legalName": "Banksia Strategic Partners Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Stephen Michelson",
+          "position": "Founder & Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "barton-deakin",
+      "legalName": "Barton Deakin",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Angus Ellisdon-Morris",
+          "position": "Associate",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Matthew Harris",
+          "position": "Managing Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "bb-win-win-outcomes",
+      "legalName": "BB Win Win Outcomes",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Brenden Brien",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": true,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "bbs-communications-group-pty-ltd",
+      "legalName": "BBS Communications Group Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Barbara Haines",
+          "position": "Group Client Manager",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Ella Newsome",
+          "position": "Account Leader",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Jane Edwards",
+          "position": "Founder, Director, Executive Chair",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Julia Gilbert",
+          "position": "Senior Consultant",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Lisa Nixon",
+          "position": "Managing Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Victoria Cox",
+          "position": "Account Manager",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "benschco-pty-ltd",
+      "legalName": "BenschCo Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Anthony Benscher",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "bondi-partners-advocacy-pty-ltd",
+      "legalName": "Bondi Partners Advocacy Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Georgette Norman Abernethy",
+          "position": "Consultant",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Jeremy Thorpe",
+          "position": "Consultant",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Peta Demery",
+          "position": "Chief of Staff",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Phillip Hudson",
+          "position": "Consultant",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Tom O'Farrell",
+          "position": "Consultant",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "borbidge-re",
+      "legalName": "Borbidge RE",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Robert Borbidge",
+          "position": "Self",
+          "active": true,
+          "isFormerPublicOfficial": true,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "bossy-group",
+      "legalName": "Bossy Group",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Peter McMahon",
+          "position": "Executive Director",
+          "active": true,
+          "isFormerPublicOfficial": true,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "brookline-advisory-pty-ltd",
+      "legalName": "Brookline Advisory Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Andrew Anson",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "canberra-bd",
+      "legalName": "Canberra BD",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "John Kelly",
+          "position": "Managing Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "capetal-advisory",
+      "legalName": "Capetal Advisory",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Brad Green",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "capital-k-communications",
+      "legalName": "Capital K Communications",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Catherine Barwick",
+          "position": "Principal",
+          "active": true,
+          "isFormerPublicOfficial": true,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "castle-hill-advisory",
+      "legalName": "CASTLE HILL ADVISORY",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Jonte Verwey",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": true,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "chikarovski-associates-pty-ltd",
+      "legalName": "Chikarovski & Associates Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Kerry Chikarovski",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "christopher-cleland-schacht",
+      "legalName": "Christopher Cleland Schacht",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Christopher Schacht",
+          "position": "Owner",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "clean-economy-services",
+      "legalName": "Clean Economy Services",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Wayne Smith",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "cmax-advisory",
+      "legalName": "CMAX Advisory",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Heather York",
+          "position": "Government Relations Advisor",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Kathryn Worden",
+          "position": "Government Relations Advisor",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Patrick Doyle",
+          "position": "Government Relations Advisor",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Sarah Jewell",
+          "position": "Government Relations Advisor",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Tyson Sara",
+          "position": "Chief Executive Officer",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "William Coats",
+          "position": "Government Relations Advisor",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "commercial-licensing-specialists",
+      "legalName": "Commercial Licensing Specialists",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Jennifer Wood",
+          "position": "Director/Partner",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Lauren Horwell",
+          "position": "Receptionist / Consultant",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Melynda Robinson",
+          "position": "Consultant",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "compass-advisory-group-pty-ltd",
+      "legalName": "Compass Advisory Group Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Matthew McLean",
+          "position": "Managing Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "convaim",
+      "legalName": "Convaim",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "George Tulloch",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "cornerstone-government-relations",
+      "legalName": "Cornerstone Government Relations",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Graham Perrett",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Joseph Tannous",
+          "position": "Executive Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Keren Davies",
+          "position": "Senior Associate",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Matthew Shaw",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Max Tobin",
+          "position": "Senior Associate",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "corporate-affairs-advisory",
+      "legalName": "Corporate Affairs Advisory",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Justin Howden",
+          "position": "PRINCIPAL",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "counsel-house-pty-ltd",
+      "legalName": "Counsel House Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Kylie Hart",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Peter Coulson",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": true,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "cpr-communications-and-public-relations-pty-ltd-melbourne",
+      "legalName": "CPR Communications and Public Relations Pty Ltd (Melbourne)",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Alan Griffin",
+          "position": "Special Counsel",
+          "active": true,
+          "isFormerPublicOfficial": true,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Luke Donnellan",
+          "position": "Special Counsel",
+          "active": true,
+          "isFormerPublicOfficial": true,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Sarah Leighton",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "crestview-strategy",
+      "legalName": "Crestview Strategy",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Christopher Wilks",
+          "position": "Consultant",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Kirsten Daggar-Nickson",
+          "position": "Vice-President",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Matthew Doman",
+          "position": "Vice President",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Nick Melas",
+          "position": "Vice-President",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "criterion-corporate-advisory",
+      "legalName": "Criterion Corporate Advisory",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Paul Fennelly",
+          "position": "Managing Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "ct-group-australia-pty-ltd",
+      "legalName": "CT Group (Australia) Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Catherine Douglas",
+          "position": "Managing Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "culturev8-pty-ltd",
+      "legalName": "culturev8 Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Christopher McLaughlin",
+          "position": "Practice Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Katherine Wiggins",
+          "position": "Senior Engagement and Governance Lead",
+          "active": true,
+          "isFormerPublicOfficial": true,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "delta-advisory",
+      "legalName": "DELTA ADVISORY",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "David Mitchell",
+          "position": "Associate",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Mia Linden",
+          "position": "Senior Consultant",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Sally Mackenzie",
+          "position": "Founder & Managing Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "dns-specialist-services",
+      "legalName": "DNS Specialist Services",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Brandon Nixon-Smith",
+          "position": "Business Consultant",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Danny Nixon-Smith",
+          "position": "Managing Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Luke Coppo",
+          "position": "Business Consultant",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Michael Blong",
+          "position": "Business Consultant",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Monique Nixon-Smith",
+          "position": "Business Consultant",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "dpg-advisory-solutions-pty-ltd",
+      "legalName": "DPG Advisory Solutions Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "David Gazard",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Scott Briggs",
+          "position": "Partner",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "edelman-australia-pty-ltd",
+      "legalName": "Edelman Australia Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Angela Young",
+          "position": "Project Manager",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Russell Joshua",
+          "position": "Senior Counsel, Market Lead - Public & Government Affairs, Oceania",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "eh-advisory-pty-ltd",
+      "legalName": "EH Advisory Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Dylan Broomfield",
+          "position": "Principal",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "emerson-communications",
+      "legalName": "Emerson Communications",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Scott Emerson",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": true,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "empower-pty-ltd",
+      "legalName": "Empower Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Dolan hayes",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "engagement-advocacy-and-esg",
+      "legalName": "Engagement, Advocacy and ESG",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Michael Todd",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": true,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "essential-media-communications-pty-ltd",
+      "legalName": "Essential Media Communications Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Peter Stahel",
+          "position": "Associate Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "exclusive-governance",
+      "legalName": "Exclusive governance",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Natasha Fretwell",
+          "position": "Founding Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "fernberg-advisory",
+      "legalName": "Fernberg Advisory",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Candice Stower",
+          "position": "Principal Consultant",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Jeffery Popp",
+          "position": "Partner",
+          "active": true,
+          "isFormerPublicOfficial": true,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Paolo Bini",
+          "position": "Partner",
+          "active": true,
+          "isFormerPublicOfficial": true,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "fifty-acres-the-communications-agency",
+      "legalName": "Fifty Acres - The Communications Agency",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Joanne Scard",
+          "position": "Chief Executive Officer",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "fipra-australia-pty-ltd",
+      "legalName": "Fipra Australia Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "John Richardson",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Shannan Manton",
+          "position": "Office Manager",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Stephen Coutts",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "fti-consulting",
+      "legalName": "FTI Consulting",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Maria Blanca Brew Ferrer",
+          "position": "Consultant",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Sarah Roberts",
+          "position": "Communications Consultant",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Shannon Walker",
+          "position": "Managing Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "girra-maa-advisory-pty-ltd",
+      "legalName": "Girra-Maa Advisory Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Leah Archer",
+          "position": "Founder & Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "goldsmith-advisory",
+      "legalName": "Goldsmith Advisory",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Richard Macchiesi",
+          "position": "Managing Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "govstrat-qld-pty-ltd",
+      "legalName": "Govstrat QLD Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Christopher Forrester",
+          "position": "Principal Consultant",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Damian Power",
+          "position": "Director & Principal Consultant",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Geraldine Mitchell",
+          "position": "Owner & Director",
+          "active": true,
+          "isFormerPublicOfficial": true,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Robert Borbidge",
+          "position": "Director & Principal Consultant",
+          "active": true,
+          "isFormerPublicOfficial": true,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "gr-connect-pty-ltd",
+      "legalName": "GR Connect Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Lyndal Maloney",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "gra-partners-pty-limited",
+      "legalName": "GRA Partners Pty Limited",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Jason Marocchi",
+          "position": "Managing Partner",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "gracosway-pty-ltd",
+      "legalName": "GRACosway Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Andrew Cox",
+          "position": "Deputy Managing Partner",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Annabelle Fisher",
+          "position": "Associate",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Dominic Kasah",
+          "position": "Associate",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Kirstin Payne",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Nicolaos Xerakias",
+          "position": "Partner",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Olivia Sommariva",
+          "position": "Associate",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Richard King",
+          "position": "Managing Partner",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Shae Williams",
+          "position": "Consultant",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Stephanie Cross",
+          "position": "Associate Director",
+          "active": true,
+          "isFormerPublicOfficial": true,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "gravitas-pr-pty-ltd",
+      "legalName": "Gravitas PR Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Isaac Stewart",
+          "position": "Partner",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Peter Harris",
+          "position": "Managing Partner",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "h-advisors",
+      "legalName": "H/Advisors",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Paula Gelo",
+          "position": "Executive Director",
+          "active": true,
+          "isFormerPublicOfficial": true,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "hawker-britton",
+      "legalName": "Hawker Britton",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Andrew Gargett",
+          "position": "Partner",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Ben Naiju",
+          "position": "Senior Associate",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Bethany Shields",
+          "position": "Senior Associate",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Emma Webster",
+          "position": "Partner",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Jessica Hayhoe",
+          "position": "Associate",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "John Jarrett",
+          "position": "Partner",
+          "active": true,
+          "isFormerPublicOfficial": true,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Lux Strugar",
+          "position": "Associate",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Samuel Doyle",
+          "position": "Associate",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Simon Banks",
+          "position": "Partner & CEO",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Tim Grey-Smith",
+          "position": "Partner",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "hemisphere-east",
+      "legalName": "Hemisphere East",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Cameron Watts",
+          "position": "Managing Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "horizon-gr",
+      "legalName": "Horizon GR",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Dean Sherr",
+          "position": "Associate",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Patrick Gibbons",
+          "position": "Partner",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "iemma-patterson-premier-advisory",
+      "legalName": "Iemma Patterson Premier Advisory",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Christopher Patterson",
+          "position": "CEO",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Morris Iemma",
+          "position": "CEO",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "jill-johnson-media-pty-ltd",
+      "legalName": "Jill Johnson Media Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Jill Johnson",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "jpg-advisory",
+      "legalName": "JPG Advisory",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Jeremy Greenwood",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "jutsum-advisory-pty-ltd",
+      "legalName": "Jutsum Advisory Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Matthew Jutsum",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": true,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "kurrajong-strategic-counsel",
+      "legalName": "Kurrajong Strategic Counsel",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Adrian Dolahenty",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "leisure-solutions",
+      "legalName": "Leisure Solutions",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Angus Robinson",
+          "position": "Managing Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "leonis-advisory",
+      "legalName": "Leonis Advisory",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Sasha Grebe",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "linebreak-pty-ltd",
+      "legalName": "LINEBREAK PTY LTD",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Kate Jones",
+          "position": "Managing Director",
+          "active": true,
+          "isFormerPublicOfficial": true,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "london-agency",
+      "legalName": "London Agency",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Mathew Langdon",
+          "position": "Commercial Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Phillip Pease",
+          "position": "Public Affairs Manager",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "markstone-group-pty-ltd",
+      "legalName": "Markstone Group Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Terrence Cuddy",
+          "position": "Director/Consultant",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "mccourt-associates",
+      "legalName": "McCourt & Associates",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "John McCourt",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "mcm-strategic-communications-pty-ltd",
+      "legalName": "MCM Strategic Communications Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Hamish Arthur",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "media-and-public-affairs-australia-pty-ltd",
+      "legalName": "Media and Public Affairs Australia Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "George Hazim",
+          "position": "Managing Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "mickel-nominees-pty-ltd",
+      "legalName": "Mickel Nominees Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Reginald Mickel",
+          "position": "Strategic Advisor",
+          "active": true,
+          "isFormerPublicOfficial": true,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "moses-corporate-affairs",
+      "legalName": "Moses Corporate Affairs",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Graeme Moses",
+          "position": "Managing Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "mountain-ash-advisory-pty-ltd",
+      "legalName": "Mountain Ash Advisory Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Paul Purcell",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "national-advisory-pty-ltd",
+      "legalName": "National Advisory Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Andrew Smith",
+          "position": "Specialist Consultant",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "David Quilty",
+          "position": "Managing Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "James Shaw",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "nexus-apac-pty-ltd",
+      "legalName": "Nexus APAC Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Addison Ridge",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Justin Fazzolari",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Nick Campbell",
+          "position": "CEO",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Rebecca Dickson",
+          "position": "Senior Consultant",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Shane Martin",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "northstar-public-affairs-pty-ltd",
+      "legalName": "Northstar Public Affairs Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Damon Jalili",
+          "position": "Managing Partner",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Michael Morgan",
+          "position": "Partner",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "pcomz-communications-and-advisory",
+      "legalName": "pCOMZ Communications and Advisory",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Gabrielle Taylor",
+          "position": "Communications Specialist",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Warwick Ponder",
+          "position": "Managing Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "phronesis-strategy",
+      "legalName": "Phronesis Strategy",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Sarah Adams",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "policywonks",
+      "legalName": "PolicyWonks",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Kirby Anderson",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": true,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "precise-hospitality-licensing",
+      "legalName": "Precise Hospitality Licensing",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Maycon Collares Gripp",
+          "position": "Licensing Consultant",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "precision-public-affairs",
+      "legalName": "Precision Public Affairs",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Sacha Fenton",
+          "position": "Principal Consultant",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "premiernational",
+      "legalName": "PremierNational",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Georgia de Mestre",
+          "position": "Head of Policy and Political Strategy",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Jennifer Chubarova",
+          "position": "Adviser",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Kathryn Conroy",
+          "position": "Partner",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Lachlan Crombie",
+          "position": "Partner and CEO",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Michael Photios",
+          "position": "Partner and Chairman",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Nelson Savanh",
+          "position": "Executive Director - Queensland",
+          "active": true,
+          "isFormerPublicOfficial": true,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Thomas Kenny",
+          "position": "Partner",
+          "active": true,
+          "isFormerPublicOfficial": true,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "primary-communication",
+      "legalName": "Primary Communication",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Christopher Hall",
+          "position": "CEO",
+          "active": true,
+          "isFormerPublicOfficial": true,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Craig Regan",
+          "position": "Lobbyist",
+          "active": true,
+          "isFormerPublicOfficial": true,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Francesco Coletta",
+          "position": "Senior Executive - Strategy and Public Affairs",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "provocate",
+      "legalName": "Provocate",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Troy Bilsborough",
+          "position": "Managing Director",
+          "active": true,
+          "isFormerPublicOfficial": true,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "purple",
+      "legalName": "Purple",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Michael Cairnduff",
+          "position": "Director, Government Relations",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "pyne-and-partners",
+      "legalName": "PYNE AND PARTNERS",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Alexandra Longinidis",
+          "position": "Partner",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Alexandra Robson",
+          "position": "Associate",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Christopher Pyne",
+          "position": "Executive Chairman",
+          "active": true,
+          "isFormerPublicOfficial": true,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Edward Lichtig",
+          "position": "Senior Associate",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Esther McTigue",
+          "position": "Associate",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Isaac Lin",
+          "position": "Associate",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Ronald Beevor",
+          "position": "Senior Associate",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Tony Hodges",
+          "position": "Partner",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "William Clancy",
+          "position": "Senior Associate",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "pynfall-pty-ltd",
+      "legalName": "Pynfall Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Hannelore Bley",
+          "position": "Managing Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "red-rocket",
+      "legalName": "Red Rocket",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Ryan Wellington",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "redbridge-group",
+      "legalName": "RedBridge Group",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Simon Adams",
+          "position": "Research and Communications Manager",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "regis-strategis",
+      "legalName": "Regis Strategis",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Amanda Bresnan",
+          "position": "Owner",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "rgc-media-and-marketing",
+      "legalName": "RGC Media and Marketing",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Ben Ready",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "ribcage-consulting",
+      "legalName": "Ribcage Consulting",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Bradley Chilcott",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "richardson-coutts-pty-ltd",
+      "legalName": "Richardson Coutts Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "John Richardson",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Shannan Manton",
+          "position": "Administration Manager",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Stephen Coutts",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "rjs-strategic-advantage",
+      "legalName": "RJS Strategic Advantage",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Ryan Smith",
+          "position": "Principal",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "rowland-pty-ltd",
+      "legalName": "Rowland. Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Alasdair Jeffrey",
+          "position": "Managing Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Geoffrey Rodgers",
+          "position": "Chairman",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "royce-comm",
+      "legalName": "Royce Comm",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Jackson Whiteley",
+          "position": "Government Relations Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Richard Amos",
+          "position": "Managing Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "santoro-consulting",
+      "legalName": "Santoro Consulting",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Santo Santoro",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": true,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "sas-group",
+      "legalName": "SAS Group",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Bernard Ripoll",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": true,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Daniel Hobbs",
+          "position": "Senior Consultant",
+          "active": true,
+          "isFormerPublicOfficial": true,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Desh Kongalage",
+          "position": "Account Associate",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Douglas Hackett",
+          "position": "Account Associate",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Johnathon Baque",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Malcolm Cole",
+          "position": "Managing Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Mitchell Collier",
+          "position": "Senior Consultant",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Natasha Eric",
+          "position": "Media and Communications Consultant",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Nicole Lynn (Nicolee) Simpson",
+          "position": "Senior Consultant",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Winston Harris",
+          "position": "Senior Consultant",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "scott-mitchell-partners",
+      "legalName": "Scott Mitchell & Partners",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Scott Mitchell",
+          "position": "Managing Director",
+          "active": true,
+          "isFormerPublicOfficial": true,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "sec-newgate",
+      "legalName": "SEC Newgate",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Jamin Smith",
+          "position": "Partner",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Nicholas O'Connor",
+          "position": "Associate Partner",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Tanya Creighton",
+          "position": "Associate Partner",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "sling-and-stone",
+      "legalName": "Sling and Stone",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "James Hutchinson",
+          "position": "Public Relations Manager",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Tara Pereira",
+          "position": "Public Relations Manager",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "spring-street-advisory",
+      "legalName": "Spring Street Advisory",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Kenneth McAlpine",
+          "position": "Managing Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "staerk-solutions",
+      "legalName": "Staerk Solutions",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Graham Staerk",
+          "position": "Managing Director",
+          "active": true,
+          "isFormerPublicOfficial": true,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Hamish Jordan",
+          "position": "Senior Adviser",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Warren Polglase",
+          "position": "Senior Lobbyist",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "stower-co-advisory-pty-ltd",
+      "legalName": "Stower & Co Advisory Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Candice Stower",
+          "position": "Managing Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "taylor-connect",
+      "legalName": "Taylor Connect",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Clare Wilkes",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "telamon-consulting",
+      "legalName": "Telamon Consulting",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Todd Hayward",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "tg-public-affairs",
+      "legalName": "TG Public Affairs",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Alexander Dalgleish",
+          "position": "Principal",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Ashleigh Dwan",
+          "position": "Associate Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "John Brenton",
+          "position": "Managing Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Paul Chamberlin",
+          "position": "Principal",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "the-civic-partnership",
+      "legalName": "The Civic Partnership",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Alan Griffin",
+          "position": "Managing Partner",
+          "active": true,
+          "isFormerPublicOfficial": true,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Luke Donnellan",
+          "position": "Special Counsel",
+          "active": true,
+          "isFormerPublicOfficial": true,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "the-pr-counsel-pty-ltd",
+      "legalName": "The PR Counsel Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Kristy McSweeney",
+          "position": "Managing Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "the-premier-communications-group",
+      "legalName": "The Premier Communications Group",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Richard Lenarduzzi",
+          "position": "Group Director, Owner",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Suzanne Bellino",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "transnational-consultancy-and-training-services-pty-ltd",
+      "legalName": "Transnational Consultancy and Training Services Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Shane Bowering",
+          "position": "Owner/Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "trojan-corporate",
+      "legalName": "Trojan Corporate",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Narelle Davidson",
+          "position": "Owner",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "upstream-consulting",
+      "legalName": "Upstream Consulting",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Justin O'Brien",
+          "position": "Owner Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "venture-affairs",
+      "legalName": "Venture Affairs",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Nicholas Chilton",
+          "position": "Founder & Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "watt-advocacy-communications",
+      "legalName": "Watt Advocacy & Communications",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Kelvin Watt",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Louise Yabsley",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "wilkinson-butler-pty-ltd",
+      "legalName": "Wilkinson Butler Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Andrew Butler",
+          "position": "Managing Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Mark Abernethy",
+          "position": "Communications Consultant",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Peter Wilkinson",
+          "position": "Chair",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "woodhill-communication-pty-ltd",
+      "legalName": "Woodhill Communication Pty Ltd",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Stephen Woodhill",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "writing-and-influence",
+      "legalName": "Writing and Influence",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Yale Stephens",
+          "position": "Director",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    },
+    {
+      "jurisdiction": "qld",
+      "registrationId": "york-park-group",
+      "legalName": "York Park Group",
+      "tradingName": null,
+      "abn": null,
+      "status": "Approved",
+      "onWatchlist": null,
+      "registeredAt": null,
+      "address": null,
+      "sourceUrl": "https://lobbyists.integrity.qld.gov.au/Lobbying-Register/Search-lobbyists/",
+      "clients": [],
+      "people": [
+        {
+          "name": "Elliot Stein",
+          "position": "Partner",
+          "active": true,
+          "isFormerPublicOfficial": true,
+          "formerRoleNotes": null
+        },
+        {
+          "name": "Sean Sammon",
+          "position": "Managing Partner",
+          "active": true,
+          "isFormerPublicOfficial": false,
+          "formerRoleNotes": null
+        }
+      ],
+      "owners": []
+    }
+  ]
+}
