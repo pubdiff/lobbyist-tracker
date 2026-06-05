@@ -29,6 +29,9 @@
 
 import type { Client, Lobbyist, Owner, Person } from "../schema.ts";
 import type { FetchResult, Source } from "./types.ts";
+import { launchBrowser, newPortalContext, type PwBrowser, type PwPage, type PwResponse } from "../portal/index.ts";
+
+const NAV_TIMEOUT = 60_000;
 
 const REGISTER_BASE = "https://www.lobbyists.vic.gov.au";
 const SITEMAP_URL = `${REGISTER_BASE}/sitemap.xml`;
@@ -52,31 +55,57 @@ export const vicSource: Source = {
   ready: true,
 
   async fetch(): Promise<FetchResult> {
-    const sitemap = await getText(SITEMAP_URL);
-    const slugs = extractFirmSlugs(sitemap);
-    console.log(`  VIC: ${slugs.length} firm pages in sitemap`);
-
-    const maxDetails = envInt("VIC_MAX_DETAILS", slugs.length);
-    const delayMs = envInt("VIC_DELAY_MS", DEFAULT_DELAY_MS);
-    const targets = slugs.slice(0, maxDetails);
-
-    const firms: Record<string, string> = {};
-    let failures = 0;
-    for (let i = 0; i < targets.length; i++) {
-      const slug = targets[i]!;
-      try {
-        firms[slug] = await getText(`${REGISTER_BASE}${FIRM_PATH}${slug}`);
-      } catch (err) {
-        failures++;
-        console.warn(`  VIC firm ${slug} failed: ${msg(err)}`);
-      }
-      if ((i + 1) % 50 === 0) console.log(`  VIC: fetched ${i + 1}/${targets.length} firms`);
-      if (i < targets.length - 1 && delayMs > 0) await sleep(delayMs);
+    // VIC is plain server-rendered HTML, so a plain fetch is the fast path and
+    // works locally. But its WAF blocks datacenter IPs (GitHub Actions) with a
+    // 403, even though NSW's Cloudflare doesn't. When that happens we fall back
+    // to the headless browser we already drive for the QLD/WA portals: a real
+    // browser's TLS fingerprint + headers pass the WAF where plain fetch can't
+    // (the bot User-Agent is identical, so the browser is what matters). The
+    // probe is one request; if it succeeds we never launch a browser at all.
+    let browser: PwBrowser | null = null;
+    let page: PwPage | null = null;
+    let get = getTextPlain;
+    let sitemap: string;
+    try {
+      sitemap = await getTextPlain(SITEMAP_URL);
+    } catch (err) {
+      if (!isBlocked(err)) throw err;
+      console.warn(`  VIC: plain fetch blocked (${msg(err)}); falling back to headless browser`);
+      browser = await launchBrowser();
+      page = await (await newPortalContext(browser)).newPage();
+      const p = page;
+      get = (url) => getTextBrowser(p, url);
+      sitemap = await get(SITEMAP_URL);
     }
-    if (failures > 0) console.warn(`  VIC: ${failures}/${targets.length} firm fetches failed`);
 
-    const raw: VicRaw = { firms };
-    return { bytes: new TextEncoder().encode(JSON.stringify(raw)), contentType: "json", sourceUrl: LANDING_URL };
+    try {
+      const slugs = extractFirmSlugs(sitemap);
+      console.log(`  VIC: ${slugs.length} firm pages in sitemap`);
+
+      const maxDetails = envInt("VIC_MAX_DETAILS", slugs.length);
+      const delayMs = envInt("VIC_DELAY_MS", DEFAULT_DELAY_MS);
+      const targets = slugs.slice(0, maxDetails);
+
+      const firms: Record<string, string> = {};
+      let failures = 0;
+      for (let i = 0; i < targets.length; i++) {
+        const slug = targets[i]!;
+        try {
+          firms[slug] = await get(`${REGISTER_BASE}${FIRM_PATH}${slug}`);
+        } catch (err) {
+          failures++;
+          console.warn(`  VIC firm ${slug} failed: ${msg(err)}`);
+        }
+        if ((i + 1) % 50 === 0) console.log(`  VIC: fetched ${i + 1}/${targets.length} firms`);
+        if (i < targets.length - 1 && delayMs > 0) await sleep(delayMs);
+      }
+      if (failures > 0) console.warn(`  VIC: ${failures}/${targets.length} firm fetches failed`);
+
+      const raw: VicRaw = { firms };
+      return { bytes: new TextEncoder().encode(JSON.stringify(raw)), contentType: "json", sourceUrl: LANDING_URL };
+    } finally {
+      if (browser) await browser.close();
+    }
   },
 
   async parse(raw: FetchResult): Promise<Lobbyist[]> {
@@ -295,12 +324,27 @@ function normalise(value: string | null | undefined): string | null {
 // Network / misc
 // ---------------------------------------------------------------------------
 
-async function getText(url: string): Promise<string> {
+async function getTextPlain(url: string): Promise<string> {
   const res = await fetch(url, {
     headers: { "User-Agent": USER_AGENT, Accept: "text/html,application/xhtml+xml" },
   });
   if (!res.ok) throw new Error(`${res.status} ${res.statusText} on ${url}`);
   return await res.text();
+}
+
+// Fetch via the headless browser. page.goto returns the main Response, whose
+// .text() is the raw response body (the server HTML / sitemap XML), not the
+// rendered DOM - so the existing parsers work unchanged.
+async function getTextBrowser(page: PwPage, url: string): Promise<string> {
+  const resp = (await page.goto(url, { waitUntil: "domcontentloaded", timeout: NAV_TIMEOUT })) as PwResponse | null;
+  if (!resp) throw new Error(`no response on ${url}`);
+  if (resp.status() >= 400) throw new Error(`${resp.status()} on ${url}`);
+  return await resp.text();
+}
+
+// A WAF/IP block we should retry through the browser, vs a genuine 404/500.
+function isBlocked(err: unknown): boolean {
+  return /\b(401|403|429|503)\b|forbidden/i.test(msg(err));
 }
 
 function envInt(name: string, fallback: number): number {
