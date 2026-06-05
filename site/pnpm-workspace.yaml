@@ -1,0 +1,7 @@
+packages:
+  - "."
+
+# Static export with images.unoptimized = true, so sharp's native build is
+# unnecessary. Keeping it unbuilt avoids a slow native compile on CI.
+allowBuilds:
+  sharp: false
