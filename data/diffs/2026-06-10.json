@@ -1,0 +1,507 @@
+{
+  "runId": "2026-06-10",
+  "perSource": {
+    "federal": {
+      "totalCurrent": 385,
+      "totalPrevious": 383,
+      "isBootstrap": false,
+      "events": [
+        {
+          "type": "lobbyist.added",
+          "key": "federal:0ebf7fe1-bab3-ec11-8156-0050569d617d",
+          "lobbyist": {
+            "jurisdiction": "federal",
+            "registrationId": "0ebf7fe1-bab3-ec11-8156-0050569d617d",
+            "legalName": "TLC Consulting",
+            "tradingName": null,
+            "abn": "17257536291",
+            "status": "Registered",
+            "onWatchlist": null,
+            "registeredAt": "2022-04-04",
+            "address": null,
+            "sourceUrl": "https://lobbyists.ag.gov.au/register",
+            "clients": [
+              {
+                "name": "UNSW SMaRT Centre",
+                "abn": null,
+                "isForeignPrincipal": null,
+                "countries": [],
+                "active": true,
+                "startDate": "2022-04-04",
+                "endDate": null,
+                "notes": null
+              }
+            ],
+            "people": [
+              {
+                "name": "Stuart Snell",
+                "position": "Independent Consultant",
+                "active": true,
+                "isFormerPublicOfficial": false,
+                "formerRoleNotes": null
+              }
+            ],
+            "owners": [
+              {
+                "name": "Stuart Snell",
+                "active": true
+              }
+            ]
+          }
+        },
+        {
+          "type": "lobbyist.added",
+          "key": "federal:abec7a2b-c663-f111-a9d9-0050569fe6ca",
+          "lobbyist": {
+            "jurisdiction": "federal",
+            "registrationId": "abec7a2b-c663-f111-a9d9-0050569fe6ca",
+            "legalName": "Venture Affairs Pty Ltd",
+            "tradingName": null,
+            "abn": "89695793956",
+            "status": "Registered",
+            "onWatchlist": null,
+            "registeredAt": "2026-06-09",
+            "address": null,
+            "sourceUrl": "https://lobbyists.ag.gov.au/register",
+            "clients": [
+              {
+                "name": "3D Morphic Pty Ltd",
+                "abn": "38607508047",
+                "isForeignPrincipal": null,
+                "countries": [],
+                "active": true,
+                "startDate": "2026-06-09",
+                "endDate": null,
+                "notes": null
+              },
+              {
+                "name": "Atomic Tessellator",
+                "abn": null,
+                "isForeignPrincipal": null,
+                "countries": [],
+                "active": true,
+                "startDate": "2026-06-09",
+                "endDate": null,
+                "notes": null
+              },
+              {
+                "name": "Celllular Agriculture Australia",
+                "abn": "67643719297",
+                "isForeignPrincipal": null,
+                "countries": [],
+                "active": true,
+                "startDate": "2026-06-09",
+                "endDate": null,
+                "notes": null
+              },
+              {
+                "name": "Estimate Labs Pty Ltd",
+                "abn": "83683698124",
+                "isForeignPrincipal": null,
+                "countries": [],
+                "active": true,
+                "startDate": "2026-06-09",
+                "endDate": null,
+                "notes": null
+              },
+              {
+                "name": "New Australian Rain Consultants",
+                "abn": null,
+                "isForeignPrincipal": null,
+                "countries": [],
+                "active": true,
+                "startDate": "2026-06-10",
+                "endDate": null,
+                "notes": null
+              },
+              {
+                "name": "Startup Muster",
+                "abn": "87609487103",
+                "isForeignPrincipal": null,
+                "countries": [],
+                "active": true,
+                "startDate": "2026-06-09",
+                "endDate": null,
+                "notes": null
+              },
+              {
+                "name": "Vow Group",
+                "abn": "49632680472",
+                "isForeignPrincipal": null,
+                "countries": [],
+                "active": true,
+                "startDate": "2026-06-09",
+                "endDate": null,
+                "notes": null
+              }
+            ],
+            "people": [
+              {
+                "name": "Nicholas Chilton",
+                "position": "Managing Director",
+                "active": true,
+                "isFormerPublicOfficial": true,
+                "formerRoleNotes": "Employed or engaged by a Minister or a Parliamentary Secretary under the Members of Parliament (Staff) Act 1984"
+              }
+            ],
+            "owners": [
+              {
+                "name": "Chilton Combley Holdings Pty Ltd",
+                "active": true
+              }
+            ]
+          }
+        },
+        {
+          "type": "client.added",
+          "key": "federal:14c95eb7-fa5d-f011-a9c3-0050569fe6ca",
+          "client": {
+            "name": "Town of Cambridge ",
+            "abn": "12196299070",
+            "isForeignPrincipal": null,
+            "countries": [],
+            "active": true,
+            "startDate": "2026-06-10",
+            "endDate": null,
+            "notes": null
+          }
+        },
+        {
+          "type": "client.removed",
+          "key": "federal:45a18aa7-783e-ef11-a9af-0050569fd942",
+          "clientName": "Fronditha Care"
+        },
+        {
+          "type": "client.removed",
+          "key": "federal:45a18aa7-783e-ef11-a9af-0050569fd942",
+          "clientName": "Glencore Australia Holdings Pty Limited"
+        },
+        {
+          "type": "client.removed",
+          "key": "federal:45a18aa7-783e-ef11-a9af-0050569fd942",
+          "clientName": "Huhtamaki Australia Pty Limited"
+        },
+        {
+          "type": "client.removed",
+          "key": "federal:45a18aa7-783e-ef11-a9af-0050569fd942",
+          "clientName": "Royal Australasian College of Surgeons "
+        },
+        {
+          "type": "client.added",
+          "key": "federal:537e6fb6-5160-f011-a9c3-0050569fe6ca",
+          "client": {
+            "name": "CISVic",
+            "abn": "11365315258",
+            "isForeignPrincipal": null,
+            "countries": [],
+            "active": true,
+            "startDate": "2026-06-10",
+            "endDate": null,
+            "notes": null
+          }
+        },
+        {
+          "type": "client.removed",
+          "key": "federal:7e18bc6e-3c05-f111-a9cb-0050569fd942",
+          "clientName": "Epic Games Australia Pty Ltd"
+        },
+        {
+          "type": "client.added",
+          "key": "federal:83b06502-2452-f011-a9c2-0050569fe6ca",
+          "client": {
+            "name": "EWE Group Pty Ltd",
+            "abn": "46142232273",
+            "isForeignPrincipal": null,
+            "countries": [],
+            "active": true,
+            "startDate": "2026-06-09",
+            "endDate": null,
+            "notes": null
+          }
+        },
+        {
+          "type": "person.added",
+          "key": "federal:83b06502-2452-f011-a9c2-0050569fe6ca",
+          "person": {
+            "name": "Mark Fahey",
+            "position": "Associate",
+            "active": true,
+            "isFormerPublicOfficial": false,
+            "formerRoleNotes": null
+          }
+        },
+        {
+          "type": "client.added",
+          "key": "federal:b484c2fe-7260-f111-a9d9-0050569fe6ca",
+          "client": {
+            "name": "BHP Group",
+            "abn": "49004028077",
+            "isForeignPrincipal": null,
+            "countries": [],
+            "active": true,
+            "startDate": "2026-06-10",
+            "endDate": null,
+            "notes": null
+          }
+        },
+        {
+          "type": "client.added",
+          "key": "federal:cc5f9ab9-115e-f111-a9d9-0050569fe6ca",
+          "client": {
+            "name": "Ageing Australia Limited (19 659 150 786)",
+            "abn": "19659150786",
+            "isForeignPrincipal": null,
+            "countries": [],
+            "active": true,
+            "startDate": "2026-06-09",
+            "endDate": null,
+            "notes": null
+          }
+        },
+        {
+          "type": "client.added",
+          "key": "federal:d10a9d88-1451-ee11-a9a3-0050569fd942",
+          "client": {
+            "name": "Opal HealthCare",
+            "abn": "38090007999",
+            "isForeignPrincipal": null,
+            "countries": [],
+            "active": true,
+            "startDate": "2026-06-10",
+            "endDate": null,
+            "notes": null
+          }
+        },
+        {
+          "type": "client.removed",
+          "key": "federal:df995047-5860-f011-a9c3-0050569fe6ca",
+          "clientName": "Elbit Systems of Australia Pty Ltd"
+        }
+      ]
+    },
+    "nsw": {
+      "totalCurrent": 457,
+      "totalPrevious": 457,
+      "isBootstrap": false,
+      "events": [
+        {
+          "type": "client.added",
+          "key": "nsw:a162s0000032MKUAA2",
+          "client": {
+            "name": "BREWERS ASSOCIATION OF AUSTRALIA INC",
+            "abn": "53659493823",
+            "isForeignPrincipal": false,
+            "countries": [],
+            "active": true,
+            "startDate": "2026-06-09",
+            "endDate": null,
+            "notes": null
+          }
+        },
+        {
+          "type": "client.added",
+          "key": "nsw:a162s0000032MKUAA2",
+          "client": {
+            "name": "EWE GROUP PTY LTD",
+            "abn": "46142232273",
+            "isForeignPrincipal": false,
+            "countries": [],
+            "active": true,
+            "startDate": "2026-06-09",
+            "endDate": null,
+            "notes": null
+          }
+        },
+        {
+          "type": "client.added",
+          "key": "nsw:a162s0000032MKUAA2",
+          "client": {
+            "name": "HALTER PTY LTD",
+            "abn": "18662723686",
+            "isForeignPrincipal": false,
+            "countries": [],
+            "active": true,
+            "startDate": "2026-06-09",
+            "endDate": null,
+            "notes": null
+          }
+        },
+        {
+          "type": "client.added",
+          "key": "nsw:a162s0000032MKUAA2",
+          "client": {
+            "name": "VIASAT AUSTRALIA PTY LIMITED",
+            "abn": "94092010421",
+            "isForeignPrincipal": false,
+            "countries": [],
+            "active": true,
+            "startDate": "2026-06-08",
+            "endDate": null,
+            "notes": null
+          }
+        }
+      ]
+    },
+    "vic": {
+      "totalCurrent": 263,
+      "totalPrevious": 263,
+      "isBootstrap": false,
+      "events": [
+        {
+          "type": "client.added",
+          "key": "vic:anacta-strategies",
+          "client": {
+            "name": "Brewers Association of Australia Inc",
+            "abn": null,
+            "isForeignPrincipal": null,
+            "countries": [],
+            "active": true,
+            "startDate": "2026-06-09",
+            "endDate": null,
+            "notes": null
+          }
+        },
+        {
+          "type": "client.removed",
+          "key": "vic:anacta-strategies",
+          "clientName": "Assetinsure Pty Ltd"
+        },
+        {
+          "type": "person.added",
+          "key": "vic:bhp-group-ltd",
+          "person": {
+            "name": "William John Murphy",
+            "position": "Specialist Public Policy Government Relations",
+            "active": true,
+            "isFormerPublicOfficial": true,
+            "formerRoleNotes": "A chief of staff, senior adviser or adviser in the private office of a Commonwealth or state minister, or parliamentary secretary"
+          }
+        },
+        {
+          "type": "person.removed",
+          "key": "vic:gracosway-pty-ltd",
+          "personName": "Alexander Kay-Oswald"
+        }
+      ]
+    },
+    "sa": {
+      "totalCurrent": 179,
+      "totalPrevious": 179,
+      "isBootstrap": false,
+      "events": [
+        {
+          "type": "client.added",
+          "key": "sa:230",
+          "client": {
+            "name": "Brewers Association of Australia",
+            "abn": null,
+            "isForeignPrincipal": null,
+            "countries": [],
+            "active": true,
+            "startDate": "2026-06-09",
+            "endDate": null,
+            "notes": null
+          }
+        },
+        {
+          "type": "person.added",
+          "key": "sa:230",
+          "person": {
+            "name": "Mark Fahey",
+            "position": "Associate",
+            "active": true,
+            "isFormerPublicOfficial": null,
+            "formerRoleNotes": null
+          }
+        },
+        {
+          "type": "owner.added",
+          "key": "sa:290",
+          "owner": {
+            "name": "Chilton Combley Holdings Pty Ltd; Nicholas Chilton",
+            "active": true
+          }
+        },
+        {
+          "type": "owner.removed",
+          "key": "sa:290",
+          "ownerName": "Nicholas Chilton"
+        }
+      ]
+    },
+    "qld": {
+      "totalCurrent": 126,
+      "totalPrevious": 126,
+      "isBootstrap": false,
+      "events": [
+        {
+          "type": "person.added",
+          "key": "qld:national-advisory-pty-ltd",
+          "person": {
+            "name": "Judy Anderson",
+            "position": "Special Consultant",
+            "active": true,
+            "isFormerPublicOfficial": false,
+            "formerRoleNotes": null
+          }
+        }
+      ]
+    },
+    "wa": {
+      "totalCurrent": 128,
+      "totalPrevious": 128,
+      "isBootstrap": false,
+      "events": [
+        {
+          "type": "client.added",
+          "key": "wa:6bd93690-ca4d-ed11-bba2-00224818ae70",
+          "client": {
+            "name": "Brewers Association of Australia",
+            "abn": null,
+            "isForeignPrincipal": null,
+            "countries": [],
+            "active": true,
+            "startDate": null,
+            "endDate": null,
+            "notes": null
+          }
+        },
+        {
+          "type": "client.added",
+          "key": "wa:ef7ff900-f150-ec11-8f8e-00224815abe9",
+          "client": {
+            "name": "Big Dons Smoked Meats Pty Ltd",
+            "abn": null,
+            "isForeignPrincipal": null,
+            "countries": [],
+            "active": true,
+            "startDate": null,
+            "endDate": null,
+            "notes": null
+          }
+        },
+        {
+          "type": "client.removed",
+          "key": "wa:ef7ff900-f150-ec11-8f8e-00224815abe9",
+          "clientName": "Malya Yutturingu"
+        }
+      ]
+    }
+  },
+  "stats": {
+    "totalCurrent": 1538,
+    "totalPrevious": 1536,
+    "eventCount": 31,
+    "addedCount": 2,
+    "removedCount": 0,
+    "clientAddedCount": 14,
+    "clientRemovedCount": 8,
+    "personAddedCount": 4,
+    "personRemovedCount": 1,
+    "ownerAddedCount": 1,
+    "ownerRemovedCount": 1,
+    "foreignPrincipalFlaggedCount": 0,
+    "watchlistChangedCount": 0,
+    "statusChangedCount": 0
+  }
+}
