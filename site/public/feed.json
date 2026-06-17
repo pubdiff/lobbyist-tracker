@@ -6,6 +6,690 @@
   "feed_url": "https://pubdiff.github.io/lobbyist-tracker/feed.json",
   "items": [
     {
+      "id": "2026-06-17:client.added:wa:55b305cb-d1b3-ec11-983f-00224818351a:Global Players Network Pty Ltd",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/wa%3A55b305cb-d1b3-ec11-983f-00224818351a/",
+      "title": "NEW client: EJF Advisory Pty Ltd -> Global Players Network Pty Ltd",
+      "content_text": "EJF Advisory Pty Ltd added client: Global Players Network Pty Ltd",
+      "content_html": "<p><strong>EJF Advisory Pty Ltd</strong> added client: <em>Global Players Network Pty Ltd</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "wa",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:wa:1f80f900-f150-ec11-8f8e-00224815abe9:Avocado Oil New Zealand Ltd",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/wa%3A1f80f900-f150-ec11-8f8e-00224815abe9/",
+      "title": "NEW client: Royce Communications Pty Ltd -> Avocado Oil New Zealand Ltd",
+      "content_text": "Royce Communications Pty Ltd added client: Avocado Oil New Zealand Ltd",
+      "content_html": "<p><strong>Royce Communications Pty Ltd</strong> added client: <em>Avocado Oil New Zealand Ltd</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "wa",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:lobbyist.added:qld:venture-affairs-pty-ltd",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/qld%3Aventure-affairs-pty-ltd/",
+      "title": "NEW lobbyist: Venture Affairs Pty Ltd (QLD)",
+      "content_text": "Registered lobbyist: Venture Affairs Pty Ltd",
+      "content_html": "<p>Registered lobbyist: <strong>Venture Affairs Pty Ltd</strong> (QLD)</p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "qld",
+        "added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:sa:72:Civecon Developments",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/sa%3A72/",
+      "title": "NEW client: Capetal Advisory Pty Ltd -> Civecon Developments",
+      "content_text": "Capetal Advisory Pty Ltd added client: Civecon Developments",
+      "content_html": "<p><strong>Capetal Advisory Pty Ltd</strong> added client: <em>Civecon Developments</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "sa",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:sa:55:THE COUNTRY CARE GROUP PTY LTD",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/sa%3A55/",
+      "title": "NEW client: Hawker Britton Group Pty Ltd -> THE COUNTRY CARE GROUP PTY LTD",
+      "content_text": "Hawker Britton Group Pty Ltd added client: THE COUNTRY CARE GROUP PTY LTD",
+      "content_html": "<p><strong>Hawker Britton Group Pty Ltd</strong> added client: <em>THE COUNTRY CARE GROUP PTY LTD</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "sa",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:sa:55:INDEPENDENT LIVING SPECIALISTS PTY LIMITED",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/sa%3A55/",
+      "title": "NEW client: Hawker Britton Group Pty Ltd -> INDEPENDENT LIVING SPECIALISTS PTY LIMITED",
+      "content_text": "Hawker Britton Group Pty Ltd added client: INDEPENDENT LIVING SPECIALISTS PTY LIMITED",
+      "content_html": "<p><strong>Hawker Britton Group Pty Ltd</strong> added client: <em>INDEPENDENT LIVING SPECIALISTS PTY LIMITED</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "sa",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:sa:55:AIDACARE PTY LTD",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/sa%3A55/",
+      "title": "NEW client: Hawker Britton Group Pty Ltd -> AIDACARE PTY LTD",
+      "content_text": "Hawker Britton Group Pty Ltd added client: AIDACARE PTY LTD",
+      "content_html": "<p><strong>Hawker Britton Group Pty Ltd</strong> added client: <em>AIDACARE PTY LTD</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "sa",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:sa:223:LMS Energy",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/sa%3A223/",
+      "title": "NEW client: Principle Advisory -> LMS Energy",
+      "content_text": "Principle Advisory added client: LMS Energy",
+      "content_html": "<p><strong>Principle Advisory</strong> added client: <em>LMS Energy</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "sa",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:sa:202:Lime Network",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/sa%3A202/",
+      "title": "NEW client: TG Public Affairs -> Lime Network",
+      "content_text": "TG Public Affairs added client: Lime Network",
+      "content_html": "<p><strong>TG Public Affairs</strong> added client: <em>Lime Network</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "sa",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:sa:162:Avocado Oil New Zealand Ltd",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/sa%3A162/",
+      "title": "NEW client: Royce Communications Pty Ltd -> Avocado Oil New Zealand Ltd",
+      "content_text": "Royce Communications Pty Ltd added client: Avocado Oil New Zealand Ltd",
+      "content_html": "<p><strong>Royce Communications Pty Ltd</strong> added client: <em>Avocado Oil New Zealand Ltd</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "sa",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:sa:114:AGL Energy Ltd",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/sa%3A114/",
+      "title": "NEW client: The Trustee for Power Family Trust -> AGL Energy Ltd",
+      "content_text": "The Trustee for Power Family Trust added client: AGL Energy Ltd",
+      "content_html": "<p><strong>The Trustee for Power Family Trust</strong> added client: <em>AGL Energy Ltd</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "sa",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:vic:roycecomm:Avocado Oil New Zealand Ltd",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/vic%3Aroycecomm/",
+      "title": "NEW client: Royce Communications Pty Ltd -> Avocado Oil New Zealand Ltd",
+      "content_text": "Royce Communications Pty Ltd added client: Avocado Oil New Zealand Ltd",
+      "content_html": "<p><strong>Royce Communications Pty Ltd</strong> added client: <em>Avocado Oil New Zealand Ltd</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "vic",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:vic:chikarovski-associates:Progressive Green Party Ltd",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/vic%3Achikarovski-associates/",
+      "title": "NEW client: The Trustee for Chikarovski Family trust -> Progressive Green Party Ltd",
+      "content_text": "The Trustee for Chikarovski Family trust added client: Progressive Green Party Ltd",
+      "content_html": "<p><strong>The Trustee for Chikarovski Family trust</strong> added client: <em>Progressive Green Party Ltd</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "vic",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:lobbyist.removed:vic:shane-n-scully",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/vic%3Ashane-n-scully/",
+      "title": "REMOVED lobbyist: Shane N Scully",
+      "content_text": "Shane N Scully no longer listed in VIC register.",
+      "content_html": "<p><strong>Shane N Scully</strong> no longer listed in VIC register.</p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "vic",
+        "removed"
+      ]
+    },
+    {
+      "id": "2026-06-17:lobbyist.removed:vic:airtrunk",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/vic%3Aairtrunk/",
+      "title": "REMOVED lobbyist: AirTrunk Operating Pty Ltd",
+      "content_text": "AirTrunk Operating Pty Ltd no longer listed in VIC register.",
+      "content_html": "<p><strong>AirTrunk Operating Pty Ltd</strong> no longer listed in VIC register.</p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "vic",
+        "removed"
+      ]
+    },
+    {
+      "id": "2026-06-17:lobbyist.added:vic:value-advisory-partners",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/vic%3Avalue-advisory-partners/",
+      "title": "NEW lobbyist: Value Advisory Partners (VIC)",
+      "content_text": "Registered lobbyist: Value Advisory Partners",
+      "content_html": "<p>Registered lobbyist: <strong>Value Advisory Partners</strong> (VIC)</p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "vic",
+        "added"
+      ]
+    },
+    {
+      "id": "2026-06-17:lobbyist.added:vic:shane-n-scully-0",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/vic%3Ashane-n-scully-0/",
+      "title": "NEW lobbyist: Shane Scully (VIC)",
+      "content_text": "Registered lobbyist: Shane Scully",
+      "content_html": "<p>Registered lobbyist: <strong>Shane Scully</strong> (VIC)</p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "vic",
+        "added"
+      ]
+    },
+    {
+      "id": "2026-06-17:lobbyist.added:vic:qube-holdings",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/vic%3Aqube-holdings/",
+      "title": "NEW lobbyist: Qube Holdings Limited (VIC)",
+      "content_text": "Registered lobbyist: Qube Holdings Limited",
+      "content_html": "<p>Registered lobbyist: <strong>Qube Holdings Limited</strong> (VIC)</p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "vic",
+        "added"
+      ]
+    },
+    {
+      "id": "2026-06-17:lobbyist.added:vic:pharmacy-guild-australia-victorian-branch",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/vic%3Apharmacy-guild-australia-victorian-branch/",
+      "title": "NEW lobbyist: Pharmacy Guild of Australia, Victorian Branch (VIC)",
+      "content_text": "Registered lobbyist: Pharmacy Guild of Australia, Victorian Branch",
+      "content_html": "<p>Registered lobbyist: <strong>Pharmacy Guild of Australia, Victorian Branch</strong> (VIC)</p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "vic",
+        "added"
+      ]
+    },
+    {
+      "id": "2026-06-17:lobbyist.added:vic:microsoft-australia",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/vic%3Amicrosoft-australia/",
+      "title": "NEW lobbyist: Microsoft Pty Ltd (VIC)",
+      "content_text": "Registered lobbyist: Microsoft Pty Ltd",
+      "content_html": "<p>Registered lobbyist: <strong>Microsoft Pty Ltd</strong> (VIC)</p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "vic",
+        "added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:nsw:a16Id000000sYHMIA2:MSI REPRODUCTIVE CHOICES",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/nsw%3Aa16Id000000sYHMIA2/",
+      "title": "NEW client: COMPASS ADVISORY GROUP PTY LTD -> MSI REPRODUCTIVE CHOICES",
+      "content_text": "COMPASS ADVISORY GROUP PTY LTD added client: MSI REPRODUCTIVE CHOICES",
+      "content_html": "<p><strong>COMPASS ADVISORY GROUP PTY LTD</strong> added client: <em>MSI REPRODUCTIVE CHOICES</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "nsw",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:nsw:a16Id000000Du2oIAC:VINYL DINING CO PTY LTD",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/nsw%3Aa16Id000000Du2oIAC/",
+      "title": "NEW client: GRIPP ENTERPRISES PTY LTD -> VINYL DINING CO PTY LTD",
+      "content_text": "GRIPP ENTERPRISES PTY LTD added client: VINYL DINING CO PTY LTD",
+      "content_html": "<p><strong>GRIPP ENTERPRISES PTY LTD</strong> added client: <em>VINYL DINING CO PTY LTD</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "nsw",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:nsw:a16Id000000Du2oIAC:The Trustee for Harjit Kaur Family Trust",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/nsw%3Aa16Id000000Du2oIAC/",
+      "title": "NEW client: GRIPP ENTERPRISES PTY LTD -> The Trustee for Harjit Kaur Family Trust",
+      "content_text": "GRIPP ENTERPRISES PTY LTD added client: The Trustee for Harjit Kaur Family Trust",
+      "content_html": "<p><strong>GRIPP ENTERPRISES PTY LTD</strong> added client: <em>The Trustee for Harjit Kaur Family Trust</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "nsw",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:nsw:a16Id000000Du2oIAC:PALM & PEPPER PTY LTD",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/nsw%3Aa16Id000000Du2oIAC/",
+      "title": "NEW client: GRIPP ENTERPRISES PTY LTD -> PALM & PEPPER PTY LTD",
+      "content_text": "GRIPP ENTERPRISES PTY LTD added client: PALM & PEPPER PTY LTD",
+      "content_html": "<p><strong>GRIPP ENTERPRISES PTY LTD</strong> added client: <em>PALM &amp; PEPPER PTY LTD</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "nsw",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:nsw:a16Id000000Du2oIAC:JAADU OF ZAIKA AUSTRALIA PTY LTD",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/nsw%3Aa16Id000000Du2oIAC/",
+      "title": "NEW client: GRIPP ENTERPRISES PTY LTD -> JAADU OF ZAIKA AUSTRALIA PTY LTD",
+      "content_text": "GRIPP ENTERPRISES PTY LTD added client: JAADU OF ZAIKA AUSTRALIA PTY LTD",
+      "content_html": "<p><strong>GRIPP ENTERPRISES PTY LTD</strong> added client: <em>JAADU OF ZAIKA AUSTRALIA PTY LTD</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "nsw",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:nsw:a16Id000000Du2oIAC:CASA PURO PTY LTD",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/nsw%3Aa16Id000000Du2oIAC/",
+      "title": "NEW client: GRIPP ENTERPRISES PTY LTD -> CASA PURO PTY LTD",
+      "content_text": "GRIPP ENTERPRISES PTY LTD added client: CASA PURO PTY LTD",
+      "content_html": "<p><strong>GRIPP ENTERPRISES PTY LTD</strong> added client: <em>CASA PURO PTY LTD</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "nsw",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:nsw:a16Id000000DbCFIA0:ZETARIS PTY LTD",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/nsw%3Aa16Id000000DbCFIA0/",
+      "title": "NEW client: CRESTVIEW STRATEGY PTY LTD -> ZETARIS PTY LTD",
+      "content_text": "CRESTVIEW STRATEGY PTY LTD added client: ZETARIS PTY LTD",
+      "content_html": "<p><strong>CRESTVIEW STRATEGY PTY LTD</strong> added client: <em>ZETARIS PTY LTD</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "nsw",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:nsw:a166F00000JTCHqQAP:AVOCADO OIL NEW ZEALAND LTD",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/nsw%3Aa166F00000JTCHqQAP/",
+      "title": "NEW client: ROYCE COMMUNICATIONS PTY LTD -> AVOCADO OIL NEW ZEALAND LTD",
+      "content_text": "ROYCE COMMUNICATIONS PTY LTD added client: AVOCADO OIL NEW ZEALAND LTD",
+      "content_html": "<p><strong>ROYCE COMMUNICATIONS PTY LTD</strong> added client: <em>AVOCADO OIL NEW ZEALAND LTD</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "nsw",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:nsw:a166F000009lQvIQAU:THE COUNTRY CARE GROUP PTY LTD",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/nsw%3Aa166F000009lQvIQAU/",
+      "title": "NEW client: Hawker Britton Group Pty Limited -> THE COUNTRY CARE GROUP PTY LTD",
+      "content_text": "Hawker Britton Group Pty Limited added client: THE COUNTRY CARE GROUP PTY LTD",
+      "content_html": "<p><strong>Hawker Britton Group Pty Limited</strong> added client: <em>THE COUNTRY CARE GROUP PTY LTD</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "nsw",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:nsw:a166F000009lQvIQAU:INDEPENDENT LIVING SPECIALISTS PTY LIMITED",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/nsw%3Aa166F000009lQvIQAU/",
+      "title": "NEW client: Hawker Britton Group Pty Limited -> INDEPENDENT LIVING SPECIALISTS PTY LIMITED",
+      "content_text": "Hawker Britton Group Pty Limited added client: INDEPENDENT LIVING SPECIALISTS PTY LIMITED",
+      "content_html": "<p><strong>Hawker Britton Group Pty Limited</strong> added client: <em>INDEPENDENT LIVING SPECIALISTS PTY LIMITED</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "nsw",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:nsw:a166F000009lQvIQAU:AIDACARE PTY LTD",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/nsw%3Aa166F000009lQvIQAU/",
+      "title": "NEW client: Hawker Britton Group Pty Limited -> AIDACARE PTY LTD",
+      "content_text": "Hawker Britton Group Pty Limited added client: AIDACARE PTY LTD",
+      "content_html": "<p><strong>Hawker Britton Group Pty Limited</strong> added client: <em>AIDACARE PTY LTD</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "nsw",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:nsw:a166F000005HR3LQAW:Insurance Australia Group Limited",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/nsw%3Aa166F000005HR3LQAW/",
+      "title": "NEW client: PREMIERNATIONAL PTY LTD -> Insurance Australia Group Limited",
+      "content_text": "PREMIERNATIONAL PTY LTD added client: Insurance Australia Group Limited",
+      "content_html": "<p><strong>PREMIERNATIONAL PTY LTD</strong> added client: <em>Insurance Australia Group Limited</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "nsw",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:nsw:a166F000003QhQtQAK:SNAICC - NATIONAL VOICE FOR OUR CHILDREN LIMITED",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/nsw%3Aa166F000003QhQtQAK/",
+      "title": "NEW client: Essential Media Communications Pty Ltd -> SNAICC - NATIONAL VOICE FOR OUR CHILDREN LIMITED",
+      "content_text": "Essential Media Communications Pty Ltd added client: SNAICC - NATIONAL VOICE FOR OUR CHILDREN LIMITED",
+      "content_html": "<p><strong>Essential Media Communications Pty Ltd</strong> added client: <em>SNAICC - NATIONAL VOICE FOR OUR CHILDREN LIMITED</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "nsw",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:nsw:a166F000003QhKlQAK:HOUSING ALL AUSTRALIANS LIMITED",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/nsw%3Aa166F000003QhKlQAK/",
+      "title": "NEW client: The Premier Communications Group Pty Ltd -> HOUSING ALL AUSTRALIANS LIMITED",
+      "content_text": "The Premier Communications Group Pty Ltd added client: HOUSING ALL AUSTRALIANS LIMITED",
+      "content_html": "<p><strong>The Premier Communications Group Pty Ltd</strong> added client: <em>HOUSING ALL AUSTRALIANS LIMITED</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "nsw",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:nsw:a162s00000328MHAAY:CENTENARY INSTITUTE OF CANCER MEDICINE & CELL BIOLOGY",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/nsw%3Aa162s00000328MHAAY/",
+      "title": "NEW client: EJF ADVISORY PTY LTD -> CENTENARY INSTITUTE OF CANCER MEDICINE & CELL BIOLOGY",
+      "content_text": "EJF ADVISORY PTY LTD added client: CENTENARY INSTITUTE OF CANCER MEDICINE & CELL BIOLOGY",
+      "content_html": "<p><strong>EJF ADVISORY PTY LTD</strong> added client: <em>CENTENARY INSTITUTE OF CANCER MEDICINE &amp; CELL BIOLOGY</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "nsw",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:nsw:a162s00000328MHAAY:AUSTRALIAN COMMITTEE FOR UNICEF LIMITED",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/nsw%3Aa162s00000328MHAAY/",
+      "title": "NEW client: EJF ADVISORY PTY LTD -> AUSTRALIAN COMMITTEE FOR UNICEF LIMITED",
+      "content_text": "EJF ADVISORY PTY LTD added client: AUSTRALIAN COMMITTEE FOR UNICEF LIMITED",
+      "content_html": "<p><strong>EJF ADVISORY PTY LTD</strong> added client: <em>AUSTRALIAN COMMITTEE FOR UNICEF LIMITED</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "nsw",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:lobbyist.added:nsw:a16Id000000ENIzIAO",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/nsw%3Aa16Id000000ENIzIAO/",
+      "title": "NEW lobbyist: PORTOLESI, GRAZIELLA (NSW)",
+      "content_text": "Registered lobbyist: PORTOLESI, GRAZIELLA\nClients: MAKER'S EMPIRE PTY. LTD.",
+      "content_html": "<p>Registered lobbyist: <strong>PORTOLESI, GRAZIELLA</strong> (NSW)</p><p>Clients: MAKER&#39;S EMPIRE PTY. LTD.</p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "nsw",
+        "added"
+      ]
+    },
+    {
+      "id": "2026-06-17:lobbyist.added:nsw:a16Id000000ELDSIA4",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/nsw%3Aa16Id000000ELDSIA4/",
+      "title": "NEW lobbyist: Venture Affairs Pty Ltd (NSW)",
+      "content_text": "Registered lobbyist: Venture Affairs Pty Ltd\nClients: ESTIMATE LABS PTY LTD",
+      "content_html": "<p>Registered lobbyist: <strong>Venture Affairs Pty Ltd</strong> (NSW)</p><p>Clients: ESTIMATE LABS PTY LTD</p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "nsw",
+        "added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:federal:f14f725d-8317-f111-a9d1-0050569fe6ca:MSI Reproductive Choices",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/federal%3Af14f725d-8317-f111-a9d1-0050569fe6ca/",
+      "title": "NEW client: Compass Advisory Group Pty Ltd -> MSI Reproductive Choices",
+      "content_text": "Compass Advisory Group Pty Ltd added client: MSI Reproductive Choices",
+      "content_html": "<p><strong>Compass Advisory Group Pty Ltd</strong> added client: <em>MSI Reproductive Choices</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "federal",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:federal:b484c2fe-7260-f111-a9d9-0050569fe6ca:CDC Data Centres Pty Ltd",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/federal%3Ab484c2fe-7260-f111-a9d9-0050569fe6ca/",
+      "title": "NEW client: TG Public Affairs Pty Ltd -> CDC Data Centres Pty Ltd",
+      "content_text": "TG Public Affairs Pty Ltd added client: CDC Data Centres Pty Ltd",
+      "content_html": "<p><strong>TG Public Affairs Pty Ltd</strong> added client: <em>CDC Data Centres Pty Ltd</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "federal",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:federal:b484c2fe-7260-f111-a9d9-0050569fe6ca:ACT Cricket Association ",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/federal%3Ab484c2fe-7260-f111-a9d9-0050569fe6ca/",
+      "title": "NEW client: TG Public Affairs Pty Ltd -> ACT Cricket Association ",
+      "content_text": "TG Public Affairs Pty Ltd added client: ACT Cricket Association ",
+      "content_html": "<p><strong>TG Public Affairs Pty Ltd</strong> added client: <em>ACT Cricket Association </em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "federal",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:federal:9cfc2ccb-62b3-ef11-a9b8-0050569fe6ca:John Deere Ltd",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/federal%3A9cfc2ccb-62b3-ef11-a9b8-0050569fe6ca/",
+      "title": "NEW client: Bondi Partners Advocacy Pty Ltd -> John Deere Ltd",
+      "content_text": "Bondi Partners Advocacy Pty Ltd added client: John Deere Ltd",
+      "content_html": "<p><strong>Bondi Partners Advocacy Pty Ltd</strong> added client: <em>John Deere Ltd</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "federal",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:federal:994962e3-5281-f011-a9c5-0050569fd942:IT Power (Australia) Pty Ltd",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/federal%3A994962e3-5281-f011-a9c5-0050569fd942/",
+      "title": "NEW client: Clean Economy Services -> IT Power (Australia) Pty Ltd",
+      "content_text": "Clean Economy Services added client: IT Power (Australia) Pty Ltd",
+      "content_html": "<p><strong>Clean Economy Services</strong> added client: <em>IT Power (Australia) Pty Ltd</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "federal",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:federal:83b06502-2452-f011-a9c2-0050569fe6ca:The Heartscreen Pty Ltd",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/federal%3A83b06502-2452-f011-a9c2-0050569fe6ca/",
+      "title": "NEW client: Anacta Strategies Pty Ltd  -> The Heartscreen Pty Ltd",
+      "content_text": "Anacta Strategies Pty Ltd  added client: The Heartscreen Pty Ltd",
+      "content_html": "<p><strong>Anacta Strategies Pty Ltd </strong> added client: <em>The Heartscreen Pty Ltd</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "federal",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:federal:83b06502-2452-f011-a9c2-0050569fe6ca:Nioa Australia Pty Ltd",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/federal%3A83b06502-2452-f011-a9c2-0050569fe6ca/",
+      "title": "NEW client: Anacta Strategies Pty Ltd  -> Nioa Australia Pty Ltd",
+      "content_text": "Anacta Strategies Pty Ltd  added client: Nioa Australia Pty Ltd",
+      "content_html": "<p><strong>Anacta Strategies Pty Ltd </strong> added client: <em>Nioa Australia Pty Ltd</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "federal",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:federal:6e1d4041-0b1c-f111-a9d1-0050569fe6ca:Australian Community Housing",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/federal%3A6e1d4041-0b1c-f111-a9d1-0050569fe6ca/",
+      "title": "NEW client: SENTIMENT ADVISORY PTY LTD -> Australian Community Housing",
+      "content_text": "SENTIMENT ADVISORY PTY LTD added client: Australian Community Housing",
+      "content_html": "<p><strong>SENTIMENT ADVISORY PTY LTD</strong> added client: <em>Australian Community Housing</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "federal",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:federal:6d01502b-6676-f011-a9c4-0050569fe6ca:Telstra ",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/federal%3A6d01502b-6676-f011-a9c4-0050569fe6ca/",
+      "title": "NEW client: PremierNational Pty Ltd -> Telstra ",
+      "content_text": "PremierNational Pty Ltd added client: Telstra ",
+      "content_html": "<p><strong>PremierNational Pty Ltd</strong> added client: <em>Telstra </em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "federal",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:federal:40a55689-1e56-f011-a9c2-0050569fe6ca:Hurst Constructions Pty Ltd",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/federal%3A40a55689-1e56-f011-a9c2-0050569fe6ca/",
+      "title": "NEW client: Red Rocket Pty Ltd -> Hurst Constructions Pty Ltd",
+      "content_text": "Red Rocket Pty Ltd added client: Hurst Constructions Pty Ltd",
+      "content_html": "<p><strong>Red Rocket Pty Ltd</strong> added client: <em>Hurst Constructions Pty Ltd</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "federal",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:federal:3d97e4fc-bee1-ef11-a9bc-0050569fe6ca:VMI Australia",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/federal%3A3d97e4fc-bee1-ef11-a9bc-0050569fe6ca/",
+      "title": "NEW client: PYNE AND PARTNERS PTY LTD -> VMI Australia",
+      "content_text": "PYNE AND PARTNERS PTY LTD added client: VMI Australia",
+      "content_html": "<p><strong>PYNE AND PARTNERS PTY LTD</strong> added client: <em>VMI Australia</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "federal",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:federal:3d97e4fc-bee1-ef11-a9bc-0050569fe6ca:Monadelphous Engineering Associates Pty Ltd ",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/federal%3A3d97e4fc-bee1-ef11-a9bc-0050569fe6ca/",
+      "title": "NEW client: PYNE AND PARTNERS PTY LTD -> Monadelphous Engineering Associates Pty Ltd ",
+      "content_text": "PYNE AND PARTNERS PTY LTD added client: Monadelphous Engineering Associates Pty Ltd ",
+      "content_html": "<p><strong>PYNE AND PARTNERS PTY LTD</strong> added client: <em>Monadelphous Engineering Associates Pty Ltd </em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "federal",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:federal:1d472731-6005-f111-a9cb-0050569fd942:SGH LIMITED",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/federal%3A1d472731-6005-f111-a9cb-0050569fd942/",
+      "title": "NEW client: Principle Advisory Pty Ltd -> SGH LIMITED",
+      "content_text": "Principle Advisory Pty Ltd added client: SGH LIMITED",
+      "content_html": "<p><strong>Principle Advisory Pty Ltd</strong> added client: <em>SGH LIMITED</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "federal",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:federal:1d472731-6005-f111-a9cb-0050569fd942:LMS ENERGY PTY LTD",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/federal%3A1d472731-6005-f111-a9cb-0050569fd942/",
+      "title": "NEW client: Principle Advisory Pty Ltd -> LMS ENERGY PTY LTD",
+      "content_text": "Principle Advisory Pty Ltd added client: LMS ENERGY PTY LTD",
+      "content_html": "<p><strong>Principle Advisory Pty Ltd</strong> added client: <em>LMS ENERGY PTY LTD</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "federal",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:federal:0a541cec-cfe1-ef11-a9bb-0050569fd942:Western Australian Indigenous Tourism Operators Council",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/federal%3A0a541cec-cfe1-ef11-a9bb-0050569fd942/",
+      "title": "NEW client: CGM Communications Pty Ltd -> Western Australian Indigenous Tourism Operators Council",
+      "content_text": "CGM Communications Pty Ltd added client: Western Australian Indigenous Tourism Operators Council",
+      "content_html": "<p><strong>CGM Communications Pty Ltd</strong> added client: <em>Western Australian Indigenous Tourism Operators Council</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "federal",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:federal:069d2c61-c0ff-f011-a9d0-0050569fe6ca:Fujitsu Australia Limited",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/federal%3A069d2c61-c0ff-f011-a9d0-0050569fe6ca/",
+      "title": "NEW client: Radburn Partners Pty Ltd -> Fujitsu Australia Limited",
+      "content_text": "Radburn Partners Pty Ltd added client: Fujitsu Australia Limited",
+      "content_html": "<p><strong>Radburn Partners Pty Ltd</strong> added client: <em>Fujitsu Australia Limited</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "federal",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:client.added:federal:00ed8f13-3d61-f011-a9c3-0050569fe6ca:Avocado Oil New Zealand Ltd",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/federal%3A00ed8f13-3d61-f011-a9c3-0050569fe6ca/",
+      "title": "NEW client: Royce Communications Pty Ltd -> Avocado Oil New Zealand Ltd",
+      "content_text": "Royce Communications Pty Ltd added client: Avocado Oil New Zealand Ltd",
+      "content_html": "<p><strong>Royce Communications Pty Ltd</strong> added client: <em>Avocado Oil New Zealand Ltd</em></p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "federal",
+        "client-added"
+      ]
+    },
+    {
+      "id": "2026-06-17:lobbyist.removed:federal:a896579c-f065-eb11-8147-0050569d2348",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/federal%3Aa896579c-f065-eb11-8147-0050569d2348/",
+      "title": "REMOVED lobbyist: Lunik Pty Ltd",
+      "content_text": "Lunik Pty Ltd no longer listed in FEDERAL register.",
+      "content_html": "<p><strong>Lunik Pty Ltd</strong> no longer listed in FEDERAL register.</p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "federal",
+        "removed"
+      ]
+    },
+    {
+      "id": "2026-06-17:lobbyist.added:federal:023eaa8a-3866-f111-a9db-0050569fe6ca",
+      "url": "https://pubdiff.github.io/lobbyist-tracker/federal%3A023eaa8a-3866-f111-a9db-0050569fe6ca/",
+      "title": "NEW lobbyist: Deep Roads Strategy (FEDERAL)",
+      "content_text": "Registered lobbyist: Deep Roads Strategy\nClients: THE MOVEMBER GROUP PTY LIMITED",
+      "content_html": "<p>Registered lobbyist: <strong>Deep Roads Strategy</strong> (FEDERAL)</p><p>Clients: THE MOVEMBER GROUP PTY LIMITED</p>",
+      "date_published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "federal",
+        "added"
+      ]
+    },
+    {
       "id": "2026-06-10:client.added:wa:ef7ff900-f150-ec11-8f8e-00224815abe9:Big Dons Smoked Meats Pty Ltd",
       "url": "https://pubdiff.github.io/lobbyist-tracker/wa%3Aef7ff900-f150-ec11-8f8e-00224815abe9/",
       "title": "NEW client: Megan Anwyl -> Big Dons Smoked Meats Pty Ltd",
